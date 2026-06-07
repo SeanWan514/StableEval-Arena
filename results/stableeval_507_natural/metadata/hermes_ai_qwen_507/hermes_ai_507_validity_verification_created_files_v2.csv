@@ -1,0 +1,19 @@
+path,notes
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_507_artifact_inventory.csv,Artifact inventory from verification step.
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_507_case_by_case_validity_audit.csv,Superseded intermediate audit; use hermes_ai_507_case_by_case_validity_audit_v2.csv.
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_507_case_by_case_validity_audit_v2.csv,Canonical corrected case-by-case validity audit.
+results/scaling_507/metadata/hermes_ai_qwen_507/hermes_ai_507_merge_integrity_audit.md,Merge integrity audit.
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_507_merge_integrity_summary.csv,Machine-readable merge integrity summary.
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_507_metric_recomputation_discrepancies.csv,Metric recomputation comparison; all rows match within tolerance.
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_vs_nanobot_langgraph_pairwise_agreement.csv,Cross-agent pairwise agreement table.
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_507_top_cross_agent_disagreements.csv,Top cross-agent disagreement cases.
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_507_stress_case_cross_agent_audit.csv,Stress-case cross-agent audit.
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_120_vs_507_alignment_recheck.csv,Hermes 120-vs-507 alignment metrics.
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_120_vs_507_alignment_recheck_deltas.csv,Hermes 120-vs-507 metric deltas.
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_507_validity_verification_summary.json,Superseded intermediate summary; use v3.
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_507_validity_verification_summary_v2.json,Superseded intermediate summary; use v3.
+results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_507_validity_verification_summary_v3.json,Canonical corrected verification summary.
+results/scaling_507/reports/hermes_ai_qwen_507/HERMES_AI_507_CASE_VALIDITY_AND_ALIGNMENT_VERIFICATION.md,Superseded report text due stale metric reproduction sentence; use v2.
+results/scaling_507/reports/hermes_ai_qwen_507/HERMES_AI_507_CASE_VALIDITY_AND_ALIGNMENT_VERIFICATION_v2.md,Canonical corrected verification report.
+results/scaling_507/metadata/hermes_ai_qwen_507/hermes_ai_507_validity_verification_created_files.csv,Original created-file manifest.
+results/scaling_507/metadata/hermes_ai_qwen_507/hermes_ai_507_validity_verification_created_files_v2.csv,Canonical created-file manifest for this verification step.

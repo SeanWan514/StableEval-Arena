@@ -1,0 +1,28 @@
+{
+  "backend": "openrouter/qwen/qwen-2.5-72b-instruct",
+  "batch_size": 25,
+  "completed_case_count": 507,
+  "corrupted_records": {
+    "continuation": [],
+    "dry_run": []
+  },
+  "created_at_utc": "2026-06-05T21:41:50.605356+00:00",
+  "duplicate_case_ids": [],
+  "exact_command_to_run_if_needed": "../envs/core-py312/bin/python scripts/scaling_507/run_nanoclaw_adapter_qwen_507_resume_safe.py --timeout-seconds 240 --max-retries 3 --batch-size 25",
+  "output_paths": {
+    "complete": "results/scaling_507/raw_outputs/nanoclaw_adapter_qwen_507_complete/nanoclaw_adapter_predictions_507_complete.jsonl",
+    "continuation": "results/scaling_507/raw_outputs/nanoclaw_adapter_qwen_507_continuation/nanoclaw_adapter_predictions_continuation.jsonl",
+    "dry_run": "results/scaling_507/raw_outputs/nanoclaw_adapter_qwen_507_dry_run/nanoclaw_adapter_predictions_dry_run.jsonl"
+  },
+  "provider": "OpenRouter",
+  "raw_record_count": 507,
+  "remaining_case_count": 0,
+  "resume_behavior": "No API resume needed: existing session completed 507/507; merge and evaluate saved outputs.",
+  "retry_settings": {
+    "backoff_seconds": "10-30",
+    "max_retries_per_case": 3
+  },
+  "temperature": 0,
+  "timeout_seconds": 240,
+  "total_cases": 507
+}

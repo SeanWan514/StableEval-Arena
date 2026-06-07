@@ -1,0 +1,23 @@
+{
+  "calibrated_file": "results/scaling_507/raw_outputs/hermes_ai_qwen_507_complete_calibrated/hermes_ai_predictions.jsonl",
+  "calibrated_file_sha256": "3b646978ffc7a7815aaf6bffe85cde6c524d71a9371e1f94ee1e5f38985b82b8",
+  "compat_file": "results/scaling_507/raw_outputs/hermes_ai_qwen_507_complete/hermes_ai_predictions.jsonl",
+  "compat_file_sha256": "d39faec3a49a39b4b126fd78d711cb3e3a2a723145d325509b812dad4f411770",
+  "continuation_records": 502,
+  "corrupt_line_check": {
+    "continuation": [],
+    "dry_run": []
+  },
+  "created_at_utc": "2026-06-04T10:44:19.579625+00:00",
+  "dry_run_records": 5,
+  "duplicate_case_ids": [],
+  "final_file": "results/scaling_507/raw_outputs/hermes_ai_qwen_507_complete/hermes_ai_predictions_507_complete.jsonl",
+  "final_file_sha256": "d39faec3a49a39b4b126fd78d711cb3e3a2a723145d325509b812dad4f411770",
+  "missing_case_ids": [],
+  "source_files": [
+    "results/scaling_507/raw_outputs/hermes_ai_qwen_507_dry_run/hermes_ai_predictions_dry_run.jsonl",
+    "results/scaling_507/raw_outputs/hermes_ai_qwen_507_continuation/hermes_ai_predictions_continuation.jsonl"
+  ],
+  "total_merged_records": 507,
+  "unique_case_ids": 507
+}

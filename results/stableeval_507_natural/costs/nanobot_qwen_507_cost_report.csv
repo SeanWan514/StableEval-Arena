@@ -1,0 +1,7 @@
+system,cases,valid_json_rate,failure_rate,avg_prompt_tokens,avg_completion_tokens,avg_total_tokens,avg_latency_seconds,total_estimated_cost_usd,cost_per_case_usd,cost_per_correct_prediction_usd,cost_per_detected_depeg_usd
+always_stable,507,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+historical_persistence,507,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+threshold_rule,507,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+simple_ml_softmax_logistic,507,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+nanobot_qwen_507_raw,507,1.0,0.0,7779.846153846154,251.6094674556213,8031.455621301775,28.431455397270575,1.47100392,0.0029013884023668638,0.008172244,
+nanobot_qwen_507_calibrated,507,1.0,0.0,7779.846153846154,251.6094674556213,8031.455621301775,28.431455397270575,1.47100392,0.0029013884023668638,0.0073550196,

@@ -1,0 +1,9 @@
+component,value
+Stablecoins,"USDT, USDC, DAI"
+Context assets,"BTC, ETH"
+Source date range,2023-01-01 to 2026-05-01
+Frequency,hourly price/volume; daily market-structure metadata joined by date
+Lookback,30 days
+Prediction horizon,7 days
+Full case pool,507
+Validation case mix,"120 cases: 54 stable, 45 watch, 21 stress"

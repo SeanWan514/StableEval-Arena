@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-06-03T15:23:21.464236+00:00",
+  "manifest": "results/freeze_120_audit/FREEZE_120_MANIFEST.csv",
+  "checked_files": 325,
+  "missing_files": [],
+  "changed_files": [],
+  "verdict": "PASS"
+}

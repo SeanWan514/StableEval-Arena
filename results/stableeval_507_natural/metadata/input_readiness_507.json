@@ -1,0 +1,22 @@
+{
+  "case_file": "results/scaling_507/case_ids/natural_distribution_507_case_list.csv",
+  "prompt_packet_file": "results/scaling_507/prompt_packets/natural_distribution_507_prompt_packets.jsonl",
+  "case_count": 507,
+  "prompt_packet_count": 507,
+  "unique_case_ids": 507,
+  "unique_packet_case_ids": 507,
+  "case_ids_match_packets": true,
+  "label_distribution": {
+    "stable": 441,
+    "watch": 45,
+    "stress": 21
+  },
+  "schema_match_status": "pass",
+  "schema_mismatches_count": 0,
+  "leakage_check_status": "pass",
+  "leakage_findings_count": 0,
+  "case_file_sha256": "0193af15595a10c864028e125ac0e7c0a261f56bd72b1f5b565497aafb9841b6",
+  "prompt_packet_sha256": "ea6c72a5d637961c404b43025e2bf565714fe9c89e874930da9b2d71264124ad",
+  "prompt_packets_written_only_under_scaling_507": true,
+  "old_120_files_touched": false
+}

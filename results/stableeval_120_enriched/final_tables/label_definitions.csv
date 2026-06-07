@@ -1,0 +1,6 @@
+label/quantity,definition
+Deviation bps,abs(hourly close - 1.0) * 10000
+Stable,No meaningful next-7-day instability under the enhanced label rule.
+Watch,"Mild but meaningful instability, including 50 bps close deviation or persistent lower-grade deviation."
+Stress,"Large, persistent, or operationally meaningful instability, including strict sustained depeg, 100 bps close deviation, repeated 50 bps hours, or high average absolute deviation."
+Strict sustained depeg,Absolute hourly close deviation >= 100 bps for at least 3 consecutive hours.

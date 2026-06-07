@@ -1,0 +1,23 @@
+{
+  "status": "corrected_metadata_note_additive",
+  "reason": "baseline_507_notes.json says simple_ml was skipped, but the finalized baseline metric and raw prediction files contain simple_ml_softmax_logistic rows. This corrected note records the artifacts as found without overwriting the earlier note.",
+  "baseline_systems_in_metrics": [
+    "simple_ml_softmax_logistic",
+    "historical_persistence",
+    "threshold_rule",
+    "always_stable"
+  ],
+  "baseline_systems_in_raw_predictions": [
+    "always_stable",
+    "historical_persistence",
+    "simple_ml_softmax_logistic",
+    "threshold_rule"
+  ],
+  "raw_prediction_rows_by_system": {
+    "always_stable": 507,
+    "historical_persistence": 507,
+    "threshold_rule": 507,
+    "simple_ml_softmax_logistic": 507
+  },
+  "interpretation": "Use baseline_prediction_quality_507.csv as the authoritative baseline result table for this run. Treat the older baseline_507_notes.json skip statement as superseded by this additive correction."
+}

@@ -1,0 +1,9 @@
+{
+  "baselines_run": [
+    "always_stable",
+    "historical_persistence",
+    "threshold_rule"
+  ],
+  "simple_ml_softmax_logistic": "skipped_in_507_scaling_phase; existing evaluator ML pilot path is not compatible with using all 507 cases as pilot labels, and initial CV attempt did not complete promptly as a no-credit preflight baseline pass",
+  "api_calls_used": false
+}

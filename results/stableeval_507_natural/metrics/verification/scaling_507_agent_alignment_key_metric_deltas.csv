@@ -1,0 +1,15 @@
+variant,metric,original_120,from_507_on_120,delta,relative_delta,concern_level,possible_explanation,agent
+calibrated,Accuracy,0.4416666666666666,0.4583333333333333,0.0166666666666666,0.0377358490566037,None,Same-case rerun variability despite fixed prompt/backend; compare label agreement and transition counts.,nanobot
+calibrated,Macro-F1,0.3505430242272347,0.3684329532282748,0.01788992900104,0.0510349023218421,None,Same-case rerun variability despite fixed prompt/backend; compare label agreement and transition counts.,nanobot
+calibrated,Balanced accuracy,0.3934744268077601,0.4045855379188712,0.011111111111111,0.0282384580905422,None,Same-case rerun variability despite fixed prompt/backend; compare label agreement and transition counts.,nanobot
+calibrated,Stress recall,0.0952380952380952,0.0952380952380952,0.0,0.0,None,No measurable difference.,nanobot
+calibrated,Missed-depeg rate,1.0,1.0,0.0,0.0,None,No measurable difference.,nanobot
+calibrated,Brier score,0.0469166666666666,0.0464166666666666,-0.0005,-0.0106571936056838,None,Numeric-output rerun variability; calibration does not alter probability/max-deviation fields.,nanobot
+calibrated,MaxDev MAE,56.61666666666688,56.55000000000025,-0.0666666666666273,-0.0011775095672645,Low,Numeric-output rerun variability; calibration does not alter probability/max-deviation fields.,nanobot
+calibrated,Accuracy,0.4416666666666666,0.5,0.0583333333333333,,None,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,Macro-F1,0.3372427983539094,0.3880640031802821,0.0508212048263727,,None,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,Balanced accuracy,0.381305114638448,0.4257495590828924,0.0444444444444444,,None,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,Stress recall,0.0476190476190476,0.0476190476190476,0.0,,None,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,Missed-depeg rate,1.0,1.0,0.0,,None,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,Brier score,0.0463333333333333,0.0481874999999999,0.0018541666666666,,None,Probability-output rerun variability; calibration does not alter probabilities.,langgraph
+calibrated,MaxDev MAE,58.6833333333335,64.27500000000019,5.59166666666669,,None,Numeric-output rerun variability; calibration does not alter max-deviation values.,langgraph

@@ -1,0 +1,2292 @@
+{
+  "summary": {
+    "checked_at_utc": "2026-06-03T10:32:28.857445+00:00",
+    "manifest_path": "results/freeze_120_audit/FREEZE_120_MANIFEST.csv",
+    "frozen_entries_considered": 325,
+    "files_checked": 325,
+    "unchanged_files": 325,
+    "missing_entries": 0,
+    "changed_entries": 0,
+    "not_file_entries": 0,
+    "verdict": "PASS",
+    "changed_files": [],
+    "not_file_entries_sample": []
+  },
+  "entries": [
+    {
+      "file_path": "FILE_MANIFEST.md",
+      "expected_sha256": "8d1d1f14563c5c2fab00eb3f9e68d16e3849e17230f7ab903f2d51f64d274120",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "8d1d1f14563c5c2fab00eb3f9e68d16e3849e17230f7ab903f2d51f64d274120"
+    },
+    {
+      "file_path": "README.md",
+      "expected_sha256": "ea356bd02419fbce2a0a0d48bfb23817306557221ea0743921ef9bfd2fd33872",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ea356bd02419fbce2a0a0d48bfb23817306557221ea0743921ef9bfd2fd33872"
+    },
+    {
+      "file_path": "REPRODUCIBILITY.md",
+      "expected_sha256": "fc891a6720021076d773bee61db185476626e0d20c991e929ef0a2b7aaa781d2",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "fc891a6720021076d773bee61db185476626e0d20c991e929ef0a2b7aaa781d2"
+    },
+    {
+      "file_path": "benchmark_data_card.md",
+      "expected_sha256": "f0ff3aba01347bb8a6cdee2b006bbaafd47a0be444939a070f600bbb8c803193",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f0ff3aba01347bb8a6cdee2b006bbaafd47a0be444939a070f600bbb8c803193"
+    },
+    {
+      "file_path": "data/benchmark/anonymization_anonymized_prompt_packets.jsonl",
+      "expected_sha256": "631becb7511ced4678faf935cf39beba83ab9d7bff36428ec7f5cd27da2e3cdd",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "631becb7511ced4678faf935cf39beba83ab9d7bff36428ec7f5cd27da2e3cdd"
+    },
+    {
+      "file_path": "data/benchmark/anonymization_original_prompt_packets.jsonl",
+      "expected_sha256": "a1dd0a2b876eedc64cb13543a6fceaf2e7fc73ae74450ee12238bb39e3b97ea5",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a1dd0a2b876eedc64cb13543a6fceaf2e7fc73ae74450ee12238bb39e3b97ea5"
+    },
+    {
+      "file_path": "data/benchmark/dataset_summary.json",
+      "expected_sha256": "ab70099846dc25595fd49bfb7d5976100a94fff5d1b42064c5d5afcced574b83",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ab70099846dc25595fd49bfb7d5976100a94fff5d1b42064c5d5afcced574b83"
+    },
+    {
+      "file_path": "data/benchmark/full_507_base_prompt_packets.jsonl",
+      "expected_sha256": "f44d6083fbb745327671929693b13ecb8a3774b1507f18f68e77cff92c17be9d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f44d6083fbb745327671929693b13ecb8a3774b1507f18f68e77cff92c17be9d"
+    },
+    {
+      "file_path": "data/benchmark/full_507_prompt_packets.jsonl",
+      "expected_sha256": "ea6c72a5d637961c404b43025e2bf565714fe9c89e874930da9b2d71264124ad",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ea6c72a5d637961c404b43025e2bf565714fe9c89e874930da9b2d71264124ad"
+    },
+    {
+      "file_path": "data/benchmark/full_case_labels_507.csv",
+      "expected_sha256": "9791c714fda0fef8fc2f39c0340482599f9bd3a96c71290ccf69084019993630",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "9791c714fda0fef8fc2f39c0340482599f9bd3a96c71290ccf69084019993630"
+    },
+    {
+      "file_path": "data/benchmark/full_case_pool_507.csv",
+      "expected_sha256": "95c8706bbbee20b249e64c5f6fba77db2130f487f005d20a98a1e365400c0e34",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "95c8706bbbee20b249e64c5f6fba77db2130f487f005d20a98a1e365400c0e34"
+    },
+    {
+      "file_path": "data/benchmark/full_hourly_windows_507.csv.gz",
+      "expected_sha256": "c7810f6e3ca16a24412056cc31f6090727ae41242cc31772d0308dd5bec1e0cb",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c7810f6e3ca16a24412056cc31f6090727ae41242cc31772d0308dd5bec1e0cb"
+    },
+    {
+      "file_path": "data/benchmark/validation_120_prompt_packets.jsonl",
+      "expected_sha256": "9a0f11dd09e61d45cc95d75261bfd8ecebab702ded4feb5ad92e2d2335241db1",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "9a0f11dd09e61d45cc95d75261bfd8ecebab702ded4feb5ad92e2d2335241db1"
+    },
+    {
+      "file_path": "docs/benchmark_data_card.md",
+      "expected_sha256": "fe67d177f72adf53b87c5c1e4d33cc500e44ef9449b67b0601e8f3e35f1ba469",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "fe67d177f72adf53b87c5c1e4d33cc500e44ef9449b67b0601e8f3e35f1ba469"
+    },
+    {
+      "file_path": "docs/methodology_and_references.md",
+      "expected_sha256": "4c8ff00f0845b9e4573f39051e43cc4137806acb4959a084be9ba6578693d3b6",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "4c8ff00f0845b9e4573f39051e43cc4137806acb4959a084be9ba6578693d3b6"
+    },
+    {
+      "file_path": "prompts/risk_sensitive_agent_prompt.md",
+      "expected_sha256": "c80161a5a3f9d8feb5714b8d0408e831836d7417b5d8e72b79d728ae25efc324",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c80161a5a3f9d8feb5714b8d0408e831836d7417b5d8e72b79d728ae25efc324"
+    },
+    {
+      "file_path": "prompts/system_prompt.md",
+      "expected_sha256": "ad27b556b98922fbf603e45eea3924f717e83df5c642cb35699af19eb80bc707",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ad27b556b98922fbf603e45eea3924f717e83df5c642cb35699af19eb80bc707"
+    },
+    {
+      "file_path": "protocols/full_507_scaling_protocol.json",
+      "expected_sha256": "48ade7b9d04dcee423e814385538499d5fd0bf995b915a1dcb48437be94de64f",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "48ade7b9d04dcee423e814385538499d5fd0bf995b915a1dcb48437be94de64f"
+    },
+    {
+      "file_path": "requirements-core.txt",
+      "expected_sha256": "b66bd2c13da8092d243590862e201d4de5dd8ee902655ad2a6c94d60115ba265",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "b66bd2c13da8092d243590862e201d4de5dd8ee902655ad2a6c94d60115ba265"
+    },
+    {
+      "file_path": "requirements-evoagentx-extra.txt",
+      "expected_sha256": "320608caf6ff326ca33e920f4024dd967640323137bc194b8ffdb2c2a6248682",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "320608caf6ff326ca33e920f4024dd967640323137bc194b8ffdb2c2a6248682"
+    },
+    {
+      "file_path": "results/paper_artifacts/figures/agent_execution_mode_native_vs_adapter.png",
+      "expected_sha256": "0dd4847e0c90921214a01ad94140b9c1057f31bcce8e56582ea55f9de7848a58",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "0dd4847e0c90921214a01ad94140b9c1057f31bcce8e56582ea55f9de7848a58"
+    },
+    {
+      "file_path": "results/paper_artifacts/figures/full_507_case_distribution.png",
+      "expected_sha256": "b31a3bfa4c9ad481df4d296e2c18a8f81dba6bfa714282d6df2cf4daec33aa5f",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "b31a3bfa4c9ad481df4d296e2c18a8f81dba6bfa714282d6df2cf4daec33aa5f"
+    },
+    {
+      "file_path": "results/paper_artifacts/figures/validation_120_ablation_base_calibrated_verifier.png",
+      "expected_sha256": "4cd7c3845ece2175a2de6bab6bd2f01e73f73f465999a7c80690834fe593c25e",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "4cd7c3845ece2175a2de6bab6bd2f01e73f73f465999a7c80690834fe593c25e"
+    },
+    {
+      "file_path": "results/paper_artifacts/figures/validation_120_cost_performance_tradeoff.png",
+      "expected_sha256": "960152efd41028948bc391dd1be335bf80257a19c1f190c0ef7d1f197efbe3c8",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "960152efd41028948bc391dd1be335bf80257a19c1f190c0ef7d1f197efbe3c8"
+    },
+    {
+      "file_path": "results/paper_artifacts/figures/validation_120_leaderboard_macro_f1_balanced_accuracy.png",
+      "expected_sha256": "00ff527d1d39066c6e2d3b99509830e2549c4d37445ca36c5edf5f2a62045c71",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "00ff527d1d39066c6e2d3b99509830e2549c4d37445ca36c5edf5f2a62045c71"
+    },
+    {
+      "file_path": "results/paper_artifacts/figures/validation_120_reliability_cost_latency.png",
+      "expected_sha256": "7e2c4330188b73c0a874528f363973b7b85f914bf66251fd9f4995a84d926152",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "7e2c4330188b73c0a874528f363973b7b85f914bf66251fd9f4995a84d926152"
+    },
+    {
+      "file_path": "results/paper_artifacts/figures/validation_120_stress_recall_vs_false_alarm_rate.png",
+      "expected_sha256": "1a00e5f11bfa4501337d7ec54604250f764efacfd8703c5a04c2d227746ced65",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1a00e5f11bfa4501337d7ec54604250f764efacfd8703c5a04c2d227746ced65"
+    },
+    {
+      "file_path": "results/paper_artifacts/release_docs/DATA_CARD.md",
+      "expected_sha256": "d6de706599ec489b3fc490581695fcd7a8b18208e0d26803de75e4e98fe418c9",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "d6de706599ec489b3fc490581695fcd7a8b18208e0d26803de75e4e98fe418c9"
+    },
+    {
+      "file_path": "results/paper_artifacts/release_docs/DATA_DICTIONARY.md",
+      "expected_sha256": "45848fe79f6b0d2d197c07fd7385c4997376d47c3fe42332caf932c701c65576",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "45848fe79f6b0d2d197c07fd7385c4997376d47c3fe42332caf932c701c65576"
+    },
+    {
+      "file_path": "results/paper_artifacts/release_docs/FILE_MANIFEST.md",
+      "expected_sha256": "00b4d0e67843036131a97b14fd24f213380498ff3c3b21f25f35eb5e1c4597c5",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "00b4d0e67843036131a97b14fd24f213380498ff3c3b21f25f35eb5e1c4597c5"
+    },
+    {
+      "file_path": "results/paper_artifacts/release_docs/MODEL_AGENT_CARD.md",
+      "expected_sha256": "97810f58b7c7bf598301d55f9d10af7c7fcf071bda0a69d93f6d73e94d5574a1",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "97810f58b7c7bf598301d55f9d10af7c7fcf071bda0a69d93f6d73e94d5574a1"
+    },
+    {
+      "file_path": "results/paper_artifacts/release_docs/README.md",
+      "expected_sha256": "ea9e98ec806dd7d5770a48b81f3479ce8e9aacbea8742f4941ca9025af8c0cf5",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ea9e98ec806dd7d5770a48b81f3479ce8e9aacbea8742f4941ca9025af8c0cf5"
+    },
+    {
+      "file_path": "results/paper_artifacts/release_docs/REPRODUCIBILITY.md",
+      "expected_sha256": "7c72240d999e7a2436ed8e98d0d023e6fa2fe4aa8914691b76a1bf7e687d47c8",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "7c72240d999e7a2436ed8e98d0d023e6fa2fe4aa8914691b76a1bf7e687d47c8"
+    },
+    {
+      "file_path": "results/paper_artifacts/tables/ablation_summary.csv",
+      "expected_sha256": "ca105d02762a630e7487bd14da101d821e7277130d08de09428d2aced2782ca1",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ca105d02762a630e7487bd14da101d821e7277130d08de09428d2aced2782ca1"
+    },
+    {
+      "file_path": "results/paper_artifacts/tables/agent_execution_metadata.csv",
+      "expected_sha256": "3ea89c44260103840ce502b377336bf61a0e31649c862ac4c1535901c65d1de9",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3ea89c44260103840ce502b377336bf61a0e31649c862ac4c1535901c65d1de9"
+    },
+    {
+      "file_path": "results/paper_artifacts/tables/agent_vs_baseline_comparison.csv",
+      "expected_sha256": "1ee41d39c3e5785ea2ef81010387930deae699022b4051b869acca9e43cacc91",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1ee41d39c3e5785ea2ef81010387930deae699022b4051b869acca9e43cacc91"
+    },
+    {
+      "file_path": "results/paper_artifacts/tables/dataset_case_construction.csv",
+      "expected_sha256": "abbb215af0ff02b98642cb5828e6532ceae0e025703cdb2073e4c205c8846ee3",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "abbb215af0ff02b98642cb5828e6532ceae0e025703cdb2073e4c205c8846ee3"
+    },
+    {
+      "file_path": "results/paper_artifacts/tables/label_definitions.csv",
+      "expected_sha256": "046296facc3dd9c5869db0fc16d369657fb1e095803cae2b1e1429f9215ec157",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "046296facc3dd9c5869db0fc16d369657fb1e095803cae2b1e1429f9215ec157"
+    },
+    {
+      "file_path": "results/paper_artifacts/tables/pilot_30_context_summary.csv",
+      "expected_sha256": "6939436503e32b99534556a85178e0ce364787b5f122a4db8e2eb440ec800b0c",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "6939436503e32b99534556a85178e0ce364787b5f122a4db8e2eb440ec800b0c"
+    },
+    {
+      "file_path": "results/paper_artifacts/tables/stress_recall_missed_stress.csv",
+      "expected_sha256": "3a85e13ecf10dcd396bbb487b2ab605a387b03426b792a701ed6d1a1ac047683",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3a85e13ecf10dcd396bbb487b2ab605a387b03426b792a701ed6d1a1ac047683"
+    },
+    {
+      "file_path": "results/paper_artifacts/tables/validation_120_cost_reliability.csv",
+      "expected_sha256": "5878ceb751f00c180200f9b86f56bb050e83366ba34a5ec0686f3f3bcc0ce1eb",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "5878ceb751f00c180200f9b86f56bb050e83366ba34a5ec0686f3f3bcc0ce1eb"
+    },
+    {
+      "file_path": "results/paper_artifacts/tables/validation_120_full_leaderboard.csv",
+      "expected_sha256": "6db390ad3e90fc6afc5f26ac90c34b9e559a967715729df620546003a2291730",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "6db390ad3e90fc6afc5f26ac90c34b9e559a967715729df620546003a2291730"
+    },
+    {
+      "file_path": "results/paper_artifacts/tables/validation_120_summary.csv",
+      "expected_sha256": "da5a42c30ea1d36c970cf69e15d7f400ecee95e3892a50020ee1179ee0f649a1",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "da5a42c30ea1d36c970cf69e15d7f400ecee95e3892a50020ee1179ee0f649a1"
+    },
+    {
+      "file_path": "results/paper_artifacts/tables/validation_case_distribution.csv",
+      "expected_sha256": "f62348ea605d8edc5250616de0acb40cacdd6392f8996d5a289b40f3eae5b769",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f62348ea605d8edc5250616de0acb40cacdd6392f8996d5a289b40f3eae5b769"
+    },
+    {
+      "file_path": "results/validation_120/agent_execution_metadata.csv",
+      "expected_sha256": "3ea89c44260103840ce502b377336bf61a0e31649c862ac4c1535901c65d1de9",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3ea89c44260103840ce502b377336bf61a0e31649c862ac4c1535901c65d1de9"
+    },
+    {
+      "file_path": "results/validation_120/anonymization_ablation_report.md",
+      "expected_sha256": "f6822fd7ba8cf5cff99bd64ad258111223e6afc23b1a410d706776c5404a4343",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f6822fd7ba8cf5cff99bd64ad258111223e6afc23b1a410d706776c5404a4343"
+    },
+    {
+      "file_path": "results/validation_120/anonymization_ablation_results.csv",
+      "expected_sha256": "1070f53e7e70358fa7bd218a0ffbbb6285702f5aef16f206f6707b3e5fe9ad3d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1070f53e7e70358fa7bd218a0ffbbb6285702f5aef16f206f6707b3e5fe9ad3d"
+    },
+    {
+      "file_path": "results/validation_120/anonymization_case_list.csv",
+      "expected_sha256": "7adfd35d02f5c385fd821b3d494df12de90e3bb44c1728c2783995accefac5d0",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "7adfd35d02f5c385fd821b3d494df12de90e3bb44c1728c2783995accefac5d0"
+    },
+    {
+      "file_path": "results/validation_120/calibration_ablation_report.md",
+      "expected_sha256": "ca70b6ea29623f06d002fbe72063c6f2b6268611f06f6024815fb3dfb5647bc1",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ca70b6ea29623f06d002fbe72063c6f2b6268611f06f6024815fb3dfb5647bc1"
+    },
+    {
+      "file_path": "results/validation_120/calibration_raw_vs_calibrated_results.csv",
+      "expected_sha256": "8edbb0cd0e0645edf42c89b008597d5988c5900967e9cdc95d3e6ec96bfd2a81",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "8edbb0cd0e0645edf42c89b008597d5988c5900967e9cdc95d3e6ec96bfd2a81"
+    },
+    {
+      "file_path": "results/validation_120/calibration_rule.md",
+      "expected_sha256": "7e7e5865f27211de682f06db7d46a5dffd27891201633ddd65e6d24d89ff1914",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "7e7e5865f27211de682f06db7d46a5dffd27891201633ddd65e6d24d89ff1914"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/baseline_comparison.csv",
+      "expected_sha256": "927206abeb32b4c396e6aad96ec175bc09ecf879360edf88bbc011aebde817cd",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "927206abeb32b4c396e6aad96ec175bc09ecf879360edf88bbc011aebde817cd"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/computational_cost_by_platform.csv",
+      "expected_sha256": "91bcda79c57ab0b94733b9c053bc20c32fd5dd978b936b71d59ce0562be9f24d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "91bcda79c57ab0b94733b9c053bc20c32fd5dd978b936b71d59ce0562be9f24d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/always_stable_confusion_matrix.csv",
+      "expected_sha256": "082ed448135a239b206dc050a5e8de4f7f612d6a65c776661c4da47c0f9d6299",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "082ed448135a239b206dc050a5e8de4f7f612d6a65c776661c4da47c0f9d6299"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/always_stable_confusion_matrix.png",
+      "expected_sha256": "3de6c6b48d66ab312d58650eaca4ea1445446a8c39d04b711664234c9186d245",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3de6c6b48d66ab312d58650eaca4ea1445446a8c39d04b711664234c9186d245"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/evoagentx_confusion_matrix.csv",
+      "expected_sha256": "064ecf4605d23fd3448ce7d9a4c5fba51eb4ee9a2569119fbe92d5a442e50602",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "064ecf4605d23fd3448ce7d9a4c5fba51eb4ee9a2569119fbe92d5a442e50602"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/evoagentx_confusion_matrix.png",
+      "expected_sha256": "7a9728a8ba9547c455a350942abf6cdd20aa83a64c7e0cadf04d2212190319ff",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "7a9728a8ba9547c455a350942abf6cdd20aa83a64c7e0cadf04d2212190319ff"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/hermes_ai_confusion_matrix.csv",
+      "expected_sha256": "064ecf4605d23fd3448ce7d9a4c5fba51eb4ee9a2569119fbe92d5a442e50602",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "064ecf4605d23fd3448ce7d9a4c5fba51eb4ee9a2569119fbe92d5a442e50602"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/hermes_ai_confusion_matrix.png",
+      "expected_sha256": "a7f505d4c3399901d8eb5ada199b8dbceb7d660e8085bf2f8c7253778d388834",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a7f505d4c3399901d8eb5ada199b8dbceb7d660e8085bf2f8c7253778d388834"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/historical_persistence_confusion_matrix.csv",
+      "expected_sha256": "c7f53ad4eac791bb3e61c12606f9bcb807ea2df0eec9b717cda81bd9482a95f6",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c7f53ad4eac791bb3e61c12606f9bcb807ea2df0eec9b717cda81bd9482a95f6"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/historical_persistence_confusion_matrix.png",
+      "expected_sha256": "50a4a4258cea67cce82cd712a4e28bc8b8647bcb6814de7c6f89de1e2ec91fc0",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "50a4a4258cea67cce82cd712a4e28bc8b8647bcb6814de7c6f89de1e2ec91fc0"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/langgraph_confusion_matrix.csv",
+      "expected_sha256": "064ecf4605d23fd3448ce7d9a4c5fba51eb4ee9a2569119fbe92d5a442e50602",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "064ecf4605d23fd3448ce7d9a4c5fba51eb4ee9a2569119fbe92d5a442e50602"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/langgraph_confusion_matrix.png",
+      "expected_sha256": "43d88bc4696785579ecf3147a3e624b87ee46487eef84115f5c971fde72acca1",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "43d88bc4696785579ecf3147a3e624b87ee46487eef84115f5c971fde72acca1"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/nanobot_confusion_matrix.csv",
+      "expected_sha256": "f6cbf6c5746b23c0392d0fd5203fca001d04930213c7395428aa7d41f3fe8f88",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f6cbf6c5746b23c0392d0fd5203fca001d04930213c7395428aa7d41f3fe8f88"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/nanobot_confusion_matrix.png",
+      "expected_sha256": "49468e2e10dbea8a17ad0d8f0e65ee1095965cc82582baa9f5a7da8f1b7e8b64",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "49468e2e10dbea8a17ad0d8f0e65ee1095965cc82582baa9f5a7da8f1b7e8b64"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/nanoclaw_confusion_matrix.csv",
+      "expected_sha256": "064ecf4605d23fd3448ce7d9a4c5fba51eb4ee9a2569119fbe92d5a442e50602",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "064ecf4605d23fd3448ce7d9a4c5fba51eb4ee9a2569119fbe92d5a442e50602"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/nanoclaw_confusion_matrix.png",
+      "expected_sha256": "e10ad0ba1f058eccf9e288b6e0081d8e1158859cdbafc061aa8bcd8dfe411926",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e10ad0ba1f058eccf9e288b6e0081d8e1158859cdbafc061aa8bcd8dfe411926"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/openclaw_confusion_matrix.csv",
+      "expected_sha256": "064ecf4605d23fd3448ce7d9a4c5fba51eb4ee9a2569119fbe92d5a442e50602",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "064ecf4605d23fd3448ce7d9a4c5fba51eb4ee9a2569119fbe92d5a442e50602"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/openclaw_confusion_matrix.png",
+      "expected_sha256": "47fd2babf353bebb6ad29683749d13f5a84ae78f8a7ad0851c264e9c6790811a",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "47fd2babf353bebb6ad29683749d13f5a84ae78f8a7ad0851c264e9c6790811a"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.csv",
+      "expected_sha256": "e11150b1b7f7ea2f90e81242239df99b74440ae95373f47d1a1b28b33e03d601",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e11150b1b7f7ea2f90e81242239df99b74440ae95373f47d1a1b28b33e03d601"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.png",
+      "expected_sha256": "07f946b508381ca58b2bd4de9aee13570374c39b7edd5509bfce0b98035068c1",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "07f946b508381ca58b2bd4de9aee13570374c39b7edd5509bfce0b98035068c1"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/threshold_rule_confusion_matrix.csv",
+      "expected_sha256": "c7f53ad4eac791bb3e61c12606f9bcb807ea2df0eec9b717cda81bd9482a95f6",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c7f53ad4eac791bb3e61c12606f9bcb807ea2df0eec9b717cda81bd9482a95f6"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/confusion_matrices/threshold_rule_confusion_matrix.png",
+      "expected_sha256": "a9be8f50dfe5d66e480883c937dc2ba4a101e22655daa1399ae4a72ab5a2832c",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a9be8f50dfe5d66e480883c937dc2ba4a101e22655daa1399ae4a72ab5a2832c"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/cost_report.csv",
+      "expected_sha256": "91bcda79c57ab0b94733b9c053bc20c32fd5dd978b936b71d59ce0562be9f24d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "91bcda79c57ab0b94733b9c053bc20c32fd5dd978b936b71d59ce0562be9f24d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/evaluation_summary.md",
+      "expected_sha256": "e2bc4dd0ff8062cb3e933d61d635829082318be8ff82207453d117243e15f9e5",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e2bc4dd0ff8062cb3e933d61d635829082318be8ff82207453d117243e15f9e5"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/failure_modes.csv",
+      "expected_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/figures/computational_cost_by_platform.png",
+      "expected_sha256": "2c130e9197afd12990edc304056f1c1258e47d8bd70538be4473599fb3525b2d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2c130e9197afd12990edc304056f1c1258e47d8bd70538be4473599fb3525b2d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/figures/pilot_label_distribution.png",
+      "expected_sha256": "694fd7b8645f6f7ec5e9b0a5eab23b6f7a73db8f87035c138c42dd220f703218",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "694fd7b8645f6f7ec5e9b0a5eab23b6f7a73db8f87035c138c42dd220f703218"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/figures/prediction_quality_by_platform.png",
+      "expected_sha256": "0826ba30df1412f14b6a6460db5fd7c4bb441552f2ba895ee86d8db964326c32",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "0826ba30df1412f14b6a6460db5fd7c4bb441552f2ba895ee86d8db964326c32"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/natural_distribution_baseline_comparison.csv",
+      "expected_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/prediction_quality_by_platform.csv",
+      "expected_sha256": "f5ebfcc6fe76725bc6bc3356cad65a650e2af50a6a36b80189b6e178d4ba3876",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f5ebfcc6fe76725bc6bc3356cad65a650e2af50a6a36b80189b6e178d4ba3876"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/raw_predictions.csv",
+      "expected_sha256": "f4c9fa292e8df7e5d4c084ac48c8d5155b55fadf918fe495d51a8a805531c760",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f4c9fa292e8df7e5d4c084ac48c8d5155b55fadf918fe495d51a8a805531c760"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_anonymized/raw_predictions.jsonl",
+      "expected_sha256": "2491c327df5565db4e1632084c11831f0c9f617b4d44d952feac16eb32585266",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2491c327df5565db4e1632084c11831f0c9f617b4d44d952feac16eb32585266"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/baseline_comparison.csv",
+      "expected_sha256": "be21b90a7b34818f0dccfb2c5e1b7839c0b74e94885827f93ee92cb8b6b8d06f",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "be21b90a7b34818f0dccfb2c5e1b7839c0b74e94885827f93ee92cb8b6b8d06f"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/computational_cost_by_platform.csv",
+      "expected_sha256": "d21d5dd6f7a6e233af8c2fc75b3010f45fa4e5915ff30f678f11344dfd11394e",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "d21d5dd6f7a6e233af8c2fc75b3010f45fa4e5915ff30f678f11344dfd11394e"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/always_stable_confusion_matrix.csv",
+      "expected_sha256": "082ed448135a239b206dc050a5e8de4f7f612d6a65c776661c4da47c0f9d6299",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "082ed448135a239b206dc050a5e8de4f7f612d6a65c776661c4da47c0f9d6299"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/always_stable_confusion_matrix.png",
+      "expected_sha256": "3de6c6b48d66ab312d58650eaca4ea1445446a8c39d04b711664234c9186d245",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3de6c6b48d66ab312d58650eaca4ea1445446a8c39d04b711664234c9186d245"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/evoagentx_confusion_matrix.csv",
+      "expected_sha256": "404245fe566656a5eeb199f805b09c5ddc5db9ac6d3821d76c48658b8b29029d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "404245fe566656a5eeb199f805b09c5ddc5db9ac6d3821d76c48658b8b29029d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/evoagentx_confusion_matrix.png",
+      "expected_sha256": "e104e5ddc0e148afa1f962cf67a05d95e02e9729a10f5dca705bfaf7f818945a",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e104e5ddc0e148afa1f962cf67a05d95e02e9729a10f5dca705bfaf7f818945a"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/hermes_ai_confusion_matrix.csv",
+      "expected_sha256": "82ef1c88a7fce53cbbf2d63e297d6c44c44ec46242c3c10e00faa105c73ca962",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "82ef1c88a7fce53cbbf2d63e297d6c44c44ec46242c3c10e00faa105c73ca962"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/hermes_ai_confusion_matrix.png",
+      "expected_sha256": "be37522faa0b19226bbbae578b0162d7a6ac3e23c0a34d3d58747a48d9e984dd",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "be37522faa0b19226bbbae578b0162d7a6ac3e23c0a34d3d58747a48d9e984dd"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/historical_persistence_confusion_matrix.csv",
+      "expected_sha256": "c7f53ad4eac791bb3e61c12606f9bcb807ea2df0eec9b717cda81bd9482a95f6",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c7f53ad4eac791bb3e61c12606f9bcb807ea2df0eec9b717cda81bd9482a95f6"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/historical_persistence_confusion_matrix.png",
+      "expected_sha256": "50a4a4258cea67cce82cd712a4e28bc8b8647bcb6814de7c6f89de1e2ec91fc0",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "50a4a4258cea67cce82cd712a4e28bc8b8647bcb6814de7c6f89de1e2ec91fc0"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/langgraph_confusion_matrix.csv",
+      "expected_sha256": "5a2a0d17250d1b84ff53307f6a4baeac33cbcf84ec711e0b0a1b8e802c78f218",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "5a2a0d17250d1b84ff53307f6a4baeac33cbcf84ec711e0b0a1b8e802c78f218"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/langgraph_confusion_matrix.png",
+      "expected_sha256": "7d0df404366fc2afacc035207fbca2733843c401ef0c9ca9af3425cf85b63d6c",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "7d0df404366fc2afacc035207fbca2733843c401ef0c9ca9af3425cf85b63d6c"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/nanobot_confusion_matrix.csv",
+      "expected_sha256": "8c6dd15d6389f891d05a24fb24bc47cb3277dfb8200082c511c99dee10d11681",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "8c6dd15d6389f891d05a24fb24bc47cb3277dfb8200082c511c99dee10d11681"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/nanobot_confusion_matrix.png",
+      "expected_sha256": "0b6ce96be6ecc26c5f522bcd41a9b75dd8bf08e6c86fb275e5d94ac36762ff68",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "0b6ce96be6ecc26c5f522bcd41a9b75dd8bf08e6c86fb275e5d94ac36762ff68"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/nanoclaw_confusion_matrix.csv",
+      "expected_sha256": "ac193b48341da9b8855722ba8cb2c5110283951e489cd695a62db80900b9dc23",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ac193b48341da9b8855722ba8cb2c5110283951e489cd695a62db80900b9dc23"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/nanoclaw_confusion_matrix.png",
+      "expected_sha256": "5725a5e2d5fb7ef8d6950e1247840da23187440b365510d74a83f75085947a1d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "5725a5e2d5fb7ef8d6950e1247840da23187440b365510d74a83f75085947a1d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/openclaw_confusion_matrix.csv",
+      "expected_sha256": "f6cbf6c5746b23c0392d0fd5203fca001d04930213c7395428aa7d41f3fe8f88",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f6cbf6c5746b23c0392d0fd5203fca001d04930213c7395428aa7d41f3fe8f88"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/openclaw_confusion_matrix.png",
+      "expected_sha256": "271e902c2ad7783888cf268f11fc78d2b4c5c81261985a2e68926fbec2ba0c2c",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "271e902c2ad7783888cf268f11fc78d2b4c5c81261985a2e68926fbec2ba0c2c"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.csv",
+      "expected_sha256": "e11150b1b7f7ea2f90e81242239df99b74440ae95373f47d1a1b28b33e03d601",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e11150b1b7f7ea2f90e81242239df99b74440ae95373f47d1a1b28b33e03d601"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.png",
+      "expected_sha256": "07f946b508381ca58b2bd4de9aee13570374c39b7edd5509bfce0b98035068c1",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "07f946b508381ca58b2bd4de9aee13570374c39b7edd5509bfce0b98035068c1"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/threshold_rule_confusion_matrix.csv",
+      "expected_sha256": "c7f53ad4eac791bb3e61c12606f9bcb807ea2df0eec9b717cda81bd9482a95f6",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c7f53ad4eac791bb3e61c12606f9bcb807ea2df0eec9b717cda81bd9482a95f6"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/confusion_matrices/threshold_rule_confusion_matrix.png",
+      "expected_sha256": "a9be8f50dfe5d66e480883c937dc2ba4a101e22655daa1399ae4a72ab5a2832c",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a9be8f50dfe5d66e480883c937dc2ba4a101e22655daa1399ae4a72ab5a2832c"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/cost_report.csv",
+      "expected_sha256": "d21d5dd6f7a6e233af8c2fc75b3010f45fa4e5915ff30f678f11344dfd11394e",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "d21d5dd6f7a6e233af8c2fc75b3010f45fa4e5915ff30f678f11344dfd11394e"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/evaluation_summary.md",
+      "expected_sha256": "64911cb21f980aa5e17ea38adf4675e4f0c57bf80afe880a6d283317ad6e0d2a",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "64911cb21f980aa5e17ea38adf4675e4f0c57bf80afe880a6d283317ad6e0d2a"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/failure_modes.csv",
+      "expected_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/figures/computational_cost_by_platform.png",
+      "expected_sha256": "69c3237867323fb2b1dc42b381e0361a2bd27d35959bc4af3c5fac51fb6fbbb4",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "69c3237867323fb2b1dc42b381e0361a2bd27d35959bc4af3c5fac51fb6fbbb4"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/figures/pilot_label_distribution.png",
+      "expected_sha256": "694fd7b8645f6f7ec5e9b0a5eab23b6f7a73db8f87035c138c42dd220f703218",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "694fd7b8645f6f7ec5e9b0a5eab23b6f7a73db8f87035c138c42dd220f703218"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/figures/prediction_quality_by_platform.png",
+      "expected_sha256": "12653370314d5b594a04237c8dc10f609810fc0f897febd6daafe5baacf43f46",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "12653370314d5b594a04237c8dc10f609810fc0f897febd6daafe5baacf43f46"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/natural_distribution_baseline_comparison.csv",
+      "expected_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/prediction_quality_by_platform.csv",
+      "expected_sha256": "3f86fc870796ef6588b2b53b9ae89eb18b48104dcfe7d2890e09b8d23781821d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3f86fc870796ef6588b2b53b9ae89eb18b48104dcfe7d2890e09b8d23781821d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/raw_predictions.csv",
+      "expected_sha256": "6932d36ecb3c4d069ad17dead8dc70e6ef6d0386ac740799ecbbb65ab04831a3",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "6932d36ecb3c4d069ad17dead8dc70e6ef6d0386ac740799ecbbb65ab04831a3"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_anonymization_original/raw_predictions.jsonl",
+      "expected_sha256": "26e65a61ada9cf7eab310f72614ddc256f91403c32ad0187b5c87e1337875d17",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "26e65a61ada9cf7eab310f72614ddc256f91403c32ad0187b5c87e1337875d17"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/baseline_comparison.csv",
+      "expected_sha256": "68bf5325eb6074084a6c300f9a1440503079645d6503f97d164ff319766020d3",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "68bf5325eb6074084a6c300f9a1440503079645d6503f97d164ff319766020d3"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/computational_cost_by_platform.csv",
+      "expected_sha256": "c3f8fdc44a4598f9f83504a0ec50f64b963db9d2d46317552d3961e835f53ad3",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c3f8fdc44a4598f9f83504a0ec50f64b963db9d2d46317552d3961e835f53ad3"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/always_stable_confusion_matrix.csv",
+      "expected_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/always_stable_confusion_matrix.png",
+      "expected_sha256": "e54b94657cf18de483b864147369a51d357dde880c72d6acff5c6962a4b206bd",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e54b94657cf18de483b864147369a51d357dde880c72d6acff5c6962a4b206bd"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/evoagentx_confusion_matrix.csv",
+      "expected_sha256": "1ed3088d2461fdb940e59a206a9277f0f8c3fa38066d1107d3ea9ae61fba9bd4",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1ed3088d2461fdb940e59a206a9277f0f8c3fa38066d1107d3ea9ae61fba9bd4"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/evoagentx_confusion_matrix.png",
+      "expected_sha256": "3d734341f0d42c484646788cc5de125c0794980bf173ca0f0ad4c43780bb4562",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3d734341f0d42c484646788cc5de125c0794980bf173ca0f0ad4c43780bb4562"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/hermes_ai_confusion_matrix.csv",
+      "expected_sha256": "54a7bc3c92436e168b54906afbec192c5de0443abdf20926a759631b00e0ef5c",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "54a7bc3c92436e168b54906afbec192c5de0443abdf20926a759631b00e0ef5c"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/hermes_ai_confusion_matrix.png",
+      "expected_sha256": "2b9e6735a2c4afc6eb89ce8d99659b84195f3fbb403a6bcea6ed38592498dd24",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2b9e6735a2c4afc6eb89ce8d99659b84195f3fbb403a6bcea6ed38592498dd24"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/historical_persistence_confusion_matrix.csv",
+      "expected_sha256": "da767bf8cadc1d4824ce9ecf75f10cfb4fd9fd5217c03744670336bf56ea7436",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "da767bf8cadc1d4824ce9ecf75f10cfb4fd9fd5217c03744670336bf56ea7436"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/historical_persistence_confusion_matrix.png",
+      "expected_sha256": "5728414fa8f25fe6012f4995f667929967de51f3cc38878d96e9a0a394bb9215",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "5728414fa8f25fe6012f4995f667929967de51f3cc38878d96e9a0a394bb9215"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/langgraph_confusion_matrix.csv",
+      "expected_sha256": "534870a03e047507bd57ea4db49211a29e5dab22ca2febc6e118cd04d1daf57b",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "534870a03e047507bd57ea4db49211a29e5dab22ca2febc6e118cd04d1daf57b"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/langgraph_confusion_matrix.png",
+      "expected_sha256": "13f36322c660ddfcf57ddf973ed4f1977913b9a69c2794a29bc575f564edfd19",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "13f36322c660ddfcf57ddf973ed4f1977913b9a69c2794a29bc575f564edfd19"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/nanobot_confusion_matrix.csv",
+      "expected_sha256": "d5217e11678d0c02e2198e3bd0e7b012970cf79379d2e2980e0f6eea606f9e4e",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "d5217e11678d0c02e2198e3bd0e7b012970cf79379d2e2980e0f6eea606f9e4e"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/nanobot_confusion_matrix.png",
+      "expected_sha256": "678f4a04de32eb191b56e1c2874449a0fb88e012770ba155a5c254b29f9064e0",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "678f4a04de32eb191b56e1c2874449a0fb88e012770ba155a5c254b29f9064e0"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/nanoclaw_confusion_matrix.csv",
+      "expected_sha256": "dbf87fd870fce79a7d259e1d8e8c00fda94d536172738a807e3007e9bba36142",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "dbf87fd870fce79a7d259e1d8e8c00fda94d536172738a807e3007e9bba36142"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/nanoclaw_confusion_matrix.png",
+      "expected_sha256": "6ef854e2ea04afaf032abc8e547667899db06db453fd6d14596370e6e30c7b3b",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "6ef854e2ea04afaf032abc8e547667899db06db453fd6d14596370e6e30c7b3b"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/openclaw_confusion_matrix.csv",
+      "expected_sha256": "7b17ac4eeb4e04d826aad84195bf2f35121b3e4c73f127d9443b0857602b658b",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "7b17ac4eeb4e04d826aad84195bf2f35121b3e4c73f127d9443b0857602b658b"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/openclaw_confusion_matrix.png",
+      "expected_sha256": "66a5f5e4ceff25628734efd5a0830a8172f5e90f5579a9beabeb6f632d7a0398",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "66a5f5e4ceff25628734efd5a0830a8172f5e90f5579a9beabeb6f632d7a0398"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.csv",
+      "expected_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.png",
+      "expected_sha256": "1335e50d194aca6d1411e6860e89ae35d4dd1c6c9af3cfa3f3bf05932158f4bc",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1335e50d194aca6d1411e6860e89ae35d4dd1c6c9af3cfa3f3bf05932158f4bc"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/threshold_rule_confusion_matrix.csv",
+      "expected_sha256": "fd164b71147e21d74116f31d8b258ce440c844cbda6cb98ae4c234d9f8e2ff95",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "fd164b71147e21d74116f31d8b258ce440c844cbda6cb98ae4c234d9f8e2ff95"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/confusion_matrices/threshold_rule_confusion_matrix.png",
+      "expected_sha256": "ac6cb2b5d64dcfe3e3a5d14da3d8f820ea56891ca5a984e9ec0b84636f05bb36",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ac6cb2b5d64dcfe3e3a5d14da3d8f820ea56891ca5a984e9ec0b84636f05bb36"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/cost_report.csv",
+      "expected_sha256": "c3f8fdc44a4598f9f83504a0ec50f64b963db9d2d46317552d3961e835f53ad3",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c3f8fdc44a4598f9f83504a0ec50f64b963db9d2d46317552d3961e835f53ad3"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/evaluation_summary.md",
+      "expected_sha256": "a7894f1c720a1b1919d9d56327a2fca7ac29e90ce3fa391fd09650d50bab147d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a7894f1c720a1b1919d9d56327a2fca7ac29e90ce3fa391fd09650d50bab147d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/failure_modes.csv",
+      "expected_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/figures/computational_cost_by_platform.png",
+      "expected_sha256": "5876f29fb66700c6675c424ef36eebc2a1a67e7193f41e98a19d0141430acc70",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "5876f29fb66700c6675c424ef36eebc2a1a67e7193f41e98a19d0141430acc70"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/figures/pilot_label_distribution.png",
+      "expected_sha256": "0412086a2dc8c02212255ffafba1feec5e7112a915bda7ccb7604e3be5b965a2",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "0412086a2dc8c02212255ffafba1feec5e7112a915bda7ccb7604e3be5b965a2"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/figures/prediction_quality_by_platform.png",
+      "expected_sha256": "3f64f255ee7e3b163af19487249242f05d0ad8bbb789bcda7d25780dc7d48a4e",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3f64f255ee7e3b163af19487249242f05d0ad8bbb789bcda7d25780dc7d48a4e"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/natural_distribution_baseline_comparison.csv",
+      "expected_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/prediction_quality_by_platform.csv",
+      "expected_sha256": "3f5b5c6c7010b2bacd2b01a5036f075cccc3bcdae1cc883240a9253266244c2e",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3f5b5c6c7010b2bacd2b01a5036f075cccc3bcdae1cc883240a9253266244c2e"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/raw_predictions.csv",
+      "expected_sha256": "3b452f59ec35444a8b44cfc6e6e204467ffab3089f856875f1583db2a3d25669",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3b452f59ec35444a8b44cfc6e6e204467ffab3089f856875f1583db2a3d25669"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_calibrated/raw_predictions.jsonl",
+      "expected_sha256": "000bebd57dbf2d201381e514f3896ced8b527a4ffa20aa6a84ffba2eabbaa964",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "000bebd57dbf2d201381e514f3896ced8b527a4ffa20aa6a84ffba2eabbaa964"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/baseline_comparison.csv",
+      "expected_sha256": "bb26ea2a8a697563f707f7c2f3ff696d598073a392ed5b09e4ce9adeb3b5e9dc",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "bb26ea2a8a697563f707f7c2f3ff696d598073a392ed5b09e4ce9adeb3b5e9dc"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/computational_cost_by_platform.csv",
+      "expected_sha256": "2f3df5bca849c603ccde4f32e4b72d04a410530de3561974fc340f1be7f9edcc",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2f3df5bca849c603ccde4f32e4b72d04a410530de3561974fc340f1be7f9edcc"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/always_stable_confusion_matrix.csv",
+      "expected_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/always_stable_confusion_matrix.png",
+      "expected_sha256": "e54b94657cf18de483b864147369a51d357dde880c72d6acff5c6962a4b206bd",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e54b94657cf18de483b864147369a51d357dde880c72d6acff5c6962a4b206bd"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/evoagentx_confusion_matrix.csv",
+      "expected_sha256": "a47ecb2d127d7e486e2ca6b97265a90665483ac928f606c5d2e3ec388d354b3d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a47ecb2d127d7e486e2ca6b97265a90665483ac928f606c5d2e3ec388d354b3d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/evoagentx_confusion_matrix.png",
+      "expected_sha256": "324ae90b0f77c5ea2a98cbfe628bfb88d37136befb4d37a61bcc04722f837213",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "324ae90b0f77c5ea2a98cbfe628bfb88d37136befb4d37a61bcc04722f837213"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/hermes_ai_confusion_matrix.csv",
+      "expected_sha256": "6b24ca9f62679ee68e247c8037b98b12c86db942125684be5904fbc2b17d20d7",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "6b24ca9f62679ee68e247c8037b98b12c86db942125684be5904fbc2b17d20d7"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/hermes_ai_confusion_matrix.png",
+      "expected_sha256": "94ea08a9774cff42e9801d626c0f9e4918572e156e908944247620d29642f478",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "94ea08a9774cff42e9801d626c0f9e4918572e156e908944247620d29642f478"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/historical_persistence_confusion_matrix.csv",
+      "expected_sha256": "da767bf8cadc1d4824ce9ecf75f10cfb4fd9fd5217c03744670336bf56ea7436",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "da767bf8cadc1d4824ce9ecf75f10cfb4fd9fd5217c03744670336bf56ea7436"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/historical_persistence_confusion_matrix.png",
+      "expected_sha256": "5728414fa8f25fe6012f4995f667929967de51f3cc38878d96e9a0a394bb9215",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "5728414fa8f25fe6012f4995f667929967de51f3cc38878d96e9a0a394bb9215"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/langgraph_confusion_matrix.csv",
+      "expected_sha256": "5978de3eecbeea6777bda6a476d14f1f486ec23e45317da6d5a0e70f386d015d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "5978de3eecbeea6777bda6a476d14f1f486ec23e45317da6d5a0e70f386d015d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/langgraph_confusion_matrix.png",
+      "expected_sha256": "c3aaf8c9d87f0d86ac21efd2b107e9446f8200505ddb5114be23d22f15ae97ab",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c3aaf8c9d87f0d86ac21efd2b107e9446f8200505ddb5114be23d22f15ae97ab"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/nanobot_confusion_matrix.csv",
+      "expected_sha256": "8ec3e5f2e0feba99e8380a7e41faf8840c26c223552f447c3f1fc58b78b5cbb7",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "8ec3e5f2e0feba99e8380a7e41faf8840c26c223552f447c3f1fc58b78b5cbb7"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/nanobot_confusion_matrix.png",
+      "expected_sha256": "1c0d5fb279205280a7146914a0557f3db8f1235333311ec9d73588e14fda40cf",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1c0d5fb279205280a7146914a0557f3db8f1235333311ec9d73588e14fda40cf"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/nanoclaw_confusion_matrix.csv",
+      "expected_sha256": "de415573e23b19e1dceddb13f501a6572085ba969deab3b3bf8e71a99445c1c4",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "de415573e23b19e1dceddb13f501a6572085ba969deab3b3bf8e71a99445c1c4"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/nanoclaw_confusion_matrix.png",
+      "expected_sha256": "c56ae7089e7bc00b50c81bbafb63455fb95a7e0aa8d466567a6b6773affab309",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c56ae7089e7bc00b50c81bbafb63455fb95a7e0aa8d466567a6b6773affab309"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/openclaw_confusion_matrix.csv",
+      "expected_sha256": "cf99492b3399590003e9cd09d4ddb7f2b0896895bc87e9ba5f0aef5a52bca75c",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "cf99492b3399590003e9cd09d4ddb7f2b0896895bc87e9ba5f0aef5a52bca75c"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/openclaw_confusion_matrix.png",
+      "expected_sha256": "e81d3407cc5352dcaac8ac51d3d35e948227bf0e17ef2ee1218afb389aacd68c",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e81d3407cc5352dcaac8ac51d3d35e948227bf0e17ef2ee1218afb389aacd68c"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.csv",
+      "expected_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.png",
+      "expected_sha256": "1335e50d194aca6d1411e6860e89ae35d4dd1c6c9af3cfa3f3bf05932158f4bc",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1335e50d194aca6d1411e6860e89ae35d4dd1c6c9af3cfa3f3bf05932158f4bc"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/threshold_rule_confusion_matrix.csv",
+      "expected_sha256": "fd164b71147e21d74116f31d8b258ce440c844cbda6cb98ae4c234d9f8e2ff95",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "fd164b71147e21d74116f31d8b258ce440c844cbda6cb98ae4c234d9f8e2ff95"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/confusion_matrices/threshold_rule_confusion_matrix.png",
+      "expected_sha256": "ac6cb2b5d64dcfe3e3a5d14da3d8f820ea56891ca5a984e9ec0b84636f05bb36",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ac6cb2b5d64dcfe3e3a5d14da3d8f820ea56891ca5a984e9ec0b84636f05bb36"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/cost_report.csv",
+      "expected_sha256": "2f3df5bca849c603ccde4f32e4b72d04a410530de3561974fc340f1be7f9edcc",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2f3df5bca849c603ccde4f32e4b72d04a410530de3561974fc340f1be7f9edcc"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/evaluation_summary.md",
+      "expected_sha256": "9a14a57b83b048b91efb493fd6baf2812f8ceca0eaf2a11b3c6c3d91ba93879f",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "9a14a57b83b048b91efb493fd6baf2812f8ceca0eaf2a11b3c6c3d91ba93879f"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/failure_modes.csv",
+      "expected_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/figures/computational_cost_by_platform.png",
+      "expected_sha256": "5876f29fb66700c6675c424ef36eebc2a1a67e7193f41e98a19d0141430acc70",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "5876f29fb66700c6675c424ef36eebc2a1a67e7193f41e98a19d0141430acc70"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/figures/pilot_label_distribution.png",
+      "expected_sha256": "0412086a2dc8c02212255ffafba1feec5e7112a915bda7ccb7604e3be5b965a2",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "0412086a2dc8c02212255ffafba1feec5e7112a915bda7ccb7604e3be5b965a2"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/figures/prediction_quality_by_platform.png",
+      "expected_sha256": "ad7e8db4d26e641977055e906ef14ce7fc25fc4e27ed10deb02cb565269912b1",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ad7e8db4d26e641977055e906ef14ce7fc25fc4e27ed10deb02cb565269912b1"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/natural_distribution_baseline_comparison.csv",
+      "expected_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/prediction_quality_by_platform.csv",
+      "expected_sha256": "93d75fd2bda30faa84940bdacad058f0b1017619f224f15953d07a1a65259f6d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "93d75fd2bda30faa84940bdacad058f0b1017619f224f15953d07a1a65259f6d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/raw_predictions.csv",
+      "expected_sha256": "f6379ee4a200fbac84063158caa2eba38bae95cd9039a2c5219e760c02bfd9b7",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f6379ee4a200fbac84063158caa2eba38bae95cd9039a2c5219e760c02bfd9b7"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_base_raw/raw_predictions.jsonl",
+      "expected_sha256": "12970254de5a6103d34f263a03c00c2c3f72a770b0e3689675902c6ea9d35440",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "12970254de5a6103d34f263a03c00c2c3f72a770b0e3689675902c6ea9d35440"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/baseline_comparison.csv",
+      "expected_sha256": "a907cc66c03a458097fdbf41348ea52d2829d05a07be429c11b7d4aa31c7661d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a907cc66c03a458097fdbf41348ea52d2829d05a07be429c11b7d4aa31c7661d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/computational_cost_by_platform.csv",
+      "expected_sha256": "f0238dafad3ada92a976354f916cb7c39b40b945bc8886d9b366d0c32809099c",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f0238dafad3ada92a976354f916cb7c39b40b945bc8886d9b366d0c32809099c"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/confusion_matrices/always_stable_confusion_matrix.csv",
+      "expected_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/confusion_matrices/always_stable_confusion_matrix.png",
+      "expected_sha256": "e54b94657cf18de483b864147369a51d357dde880c72d6acff5c6962a4b206bd",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e54b94657cf18de483b864147369a51d357dde880c72d6acff5c6962a4b206bd"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/confusion_matrices/historical_persistence_confusion_matrix.csv",
+      "expected_sha256": "da767bf8cadc1d4824ce9ecf75f10cfb4fd9fd5217c03744670336bf56ea7436",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "da767bf8cadc1d4824ce9ecf75f10cfb4fd9fd5217c03744670336bf56ea7436"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/confusion_matrices/historical_persistence_confusion_matrix.png",
+      "expected_sha256": "5728414fa8f25fe6012f4995f667929967de51f3cc38878d96e9a0a394bb9215",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "5728414fa8f25fe6012f4995f667929967de51f3cc38878d96e9a0a394bb9215"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.csv",
+      "expected_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.png",
+      "expected_sha256": "1335e50d194aca6d1411e6860e89ae35d4dd1c6c9af3cfa3f3bf05932158f4bc",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1335e50d194aca6d1411e6860e89ae35d4dd1c6c9af3cfa3f3bf05932158f4bc"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/confusion_matrices/threshold_rule_confusion_matrix.csv",
+      "expected_sha256": "fd164b71147e21d74116f31d8b258ce440c844cbda6cb98ae4c234d9f8e2ff95",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "fd164b71147e21d74116f31d8b258ce440c844cbda6cb98ae4c234d9f8e2ff95"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/confusion_matrices/threshold_rule_confusion_matrix.png",
+      "expected_sha256": "ac6cb2b5d64dcfe3e3a5d14da3d8f820ea56891ca5a984e9ec0b84636f05bb36",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ac6cb2b5d64dcfe3e3a5d14da3d8f820ea56891ca5a984e9ec0b84636f05bb36"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/cost_report.csv",
+      "expected_sha256": "f0238dafad3ada92a976354f916cb7c39b40b945bc8886d9b366d0c32809099c",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f0238dafad3ada92a976354f916cb7c39b40b945bc8886d9b366d0c32809099c"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/evaluation_summary.md",
+      "expected_sha256": "8c0f6145817e70f9ecd3b228a12f12a6f19d3f92f2d9876a8006540278da8317",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "8c0f6145817e70f9ecd3b228a12f12a6f19d3f92f2d9876a8006540278da8317"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/failure_modes.csv",
+      "expected_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/figures/computational_cost_by_platform.png",
+      "expected_sha256": "fa22aeca410f5fc36958323c1d68f8113e63af5baaff28f2ff93ac605fe2a2ca",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "fa22aeca410f5fc36958323c1d68f8113e63af5baaff28f2ff93ac605fe2a2ca"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/figures/pilot_label_distribution.png",
+      "expected_sha256": "0412086a2dc8c02212255ffafba1feec5e7112a915bda7ccb7604e3be5b965a2",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "0412086a2dc8c02212255ffafba1feec5e7112a915bda7ccb7604e3be5b965a2"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/figures/prediction_quality_by_platform.png",
+      "expected_sha256": "64c95440a652beba9665372c245e68d0350357306032c5ee9e812bebcae4e81a",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "64c95440a652beba9665372c245e68d0350357306032c5ee9e812bebcae4e81a"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/natural_distribution_baseline_comparison.csv",
+      "expected_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/prediction_quality_by_platform.csv",
+      "expected_sha256": "a08f7c836256cf1dd50afe7853338d2f0eab8fa1637a5a6eeb2225c6a80c8e28",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a08f7c836256cf1dd50afe7853338d2f0eab8fa1637a5a6eeb2225c6a80c8e28"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/raw_predictions.csv",
+      "expected_sha256": "a2dfb8d9fec13cf8b1c5cdfdde0dbb82e914272678aa3dbc3b56261675e71474",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a2dfb8d9fec13cf8b1c5cdfdde0dbb82e914272678aa3dbc3b56261675e71474"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_baselines/raw_predictions.jsonl",
+      "expected_sha256": "c5bf6cf577b370e53ded5e0d3884f77226cf5f6efd1e2373602e4dba291cc689",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c5bf6cf577b370e53ded5e0d3884f77226cf5f6efd1e2373602e4dba291cc689"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/baseline_comparison.csv",
+      "expected_sha256": "8b12b22aacebc43d9ac1310a4390c55a32ab6447c71d2a3527c2ff6a83919d70",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "8b12b22aacebc43d9ac1310a4390c55a32ab6447c71d2a3527c2ff6a83919d70"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/computational_cost_by_platform.csv",
+      "expected_sha256": "7a606a3bfc4ea34af46846f0de2fc35c6de0a526f295545765b4114c05b730bd",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "7a606a3bfc4ea34af46846f0de2fc35c6de0a526f295545765b4114c05b730bd"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/always_stable_confusion_matrix.csv",
+      "expected_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/always_stable_confusion_matrix.png",
+      "expected_sha256": "e54b94657cf18de483b864147369a51d357dde880c72d6acff5c6962a4b206bd",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e54b94657cf18de483b864147369a51d357dde880c72d6acff5c6962a4b206bd"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/evoagentx_confusion_matrix.csv",
+      "expected_sha256": "b56ba005d8ae1cbc040ee2b2ec978bc15ee12b14c3f328ad048e976448580393",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "b56ba005d8ae1cbc040ee2b2ec978bc15ee12b14c3f328ad048e976448580393"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/evoagentx_confusion_matrix.png",
+      "expected_sha256": "cda4bdb4f53ae8a310d93ab8d37a10b74e48ee2b79aa545752e37a8db400bc38",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "cda4bdb4f53ae8a310d93ab8d37a10b74e48ee2b79aa545752e37a8db400bc38"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/hermes_ai_confusion_matrix.csv",
+      "expected_sha256": "f2570825322b49987ba630129d63c317a41208319eb9413624e02e7dd156dfdf",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f2570825322b49987ba630129d63c317a41208319eb9413624e02e7dd156dfdf"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/hermes_ai_confusion_matrix.png",
+      "expected_sha256": "4c0374d851719b1af2241ee54f4f124d481c15db4fa3e9af158240d321aa9be2",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "4c0374d851719b1af2241ee54f4f124d481c15db4fa3e9af158240d321aa9be2"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/historical_persistence_confusion_matrix.csv",
+      "expected_sha256": "da767bf8cadc1d4824ce9ecf75f10cfb4fd9fd5217c03744670336bf56ea7436",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "da767bf8cadc1d4824ce9ecf75f10cfb4fd9fd5217c03744670336bf56ea7436"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/historical_persistence_confusion_matrix.png",
+      "expected_sha256": "5728414fa8f25fe6012f4995f667929967de51f3cc38878d96e9a0a394bb9215",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "5728414fa8f25fe6012f4995f667929967de51f3cc38878d96e9a0a394bb9215"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/langgraph_confusion_matrix.csv",
+      "expected_sha256": "11de516ee7592344da237dd40ee3b5afd827394e96018c1076f6bd647ff789c6",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "11de516ee7592344da237dd40ee3b5afd827394e96018c1076f6bd647ff789c6"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/langgraph_confusion_matrix.png",
+      "expected_sha256": "3f73574de16671336e7d1dc5e408b856d97da988885803e86543c63707ab7c41",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3f73574de16671336e7d1dc5e408b856d97da988885803e86543c63707ab7c41"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/nanobot_confusion_matrix.csv",
+      "expected_sha256": "22f8d70e666fbf1987d558d416f6a210621fc03421ab482f7d383707cbcb557d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "22f8d70e666fbf1987d558d416f6a210621fc03421ab482f7d383707cbcb557d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/nanobot_confusion_matrix.png",
+      "expected_sha256": "737c2befd1f36c9fe04e6e204959008c5faeeba94a1d172a597eb06a19d24f15",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "737c2befd1f36c9fe04e6e204959008c5faeeba94a1d172a597eb06a19d24f15"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/nanoclaw_confusion_matrix.csv",
+      "expected_sha256": "909bea721c8b0f92f7788e6fefbcd9d443f4c28ac7387d5a8409b78d8a831790",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "909bea721c8b0f92f7788e6fefbcd9d443f4c28ac7387d5a8409b78d8a831790"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/nanoclaw_confusion_matrix.png",
+      "expected_sha256": "a12903da229ea41e9cfe8ffc388c1e49ad31979458986da9dda5468ecc01b576",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a12903da229ea41e9cfe8ffc388c1e49ad31979458986da9dda5468ecc01b576"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/openclaw_confusion_matrix.csv",
+      "expected_sha256": "2e95eff2d9914c9cc051b61cc3db51a541f23abf0e7f2613e6ad82d531a96bec",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2e95eff2d9914c9cc051b61cc3db51a541f23abf0e7f2613e6ad82d531a96bec"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/openclaw_confusion_matrix.png",
+      "expected_sha256": "a866f14130bc39790330940b0f84233f220ff43c939afcb6b2488f9acd5f58a0",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a866f14130bc39790330940b0f84233f220ff43c939afcb6b2488f9acd5f58a0"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.csv",
+      "expected_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.png",
+      "expected_sha256": "1335e50d194aca6d1411e6860e89ae35d4dd1c6c9af3cfa3f3bf05932158f4bc",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1335e50d194aca6d1411e6860e89ae35d4dd1c6c9af3cfa3f3bf05932158f4bc"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/threshold_rule_confusion_matrix.csv",
+      "expected_sha256": "fd164b71147e21d74116f31d8b258ce440c844cbda6cb98ae4c234d9f8e2ff95",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "fd164b71147e21d74116f31d8b258ce440c844cbda6cb98ae4c234d9f8e2ff95"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/confusion_matrices/threshold_rule_confusion_matrix.png",
+      "expected_sha256": "ac6cb2b5d64dcfe3e3a5d14da3d8f820ea56891ca5a984e9ec0b84636f05bb36",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ac6cb2b5d64dcfe3e3a5d14da3d8f820ea56891ca5a984e9ec0b84636f05bb36"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/cost_report.csv",
+      "expected_sha256": "7a606a3bfc4ea34af46846f0de2fc35c6de0a526f295545765b4114c05b730bd",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "7a606a3bfc4ea34af46846f0de2fc35c6de0a526f295545765b4114c05b730bd"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/evaluation_summary.md",
+      "expected_sha256": "7e4db806d5a1c66b5ff8b52f7eafb0189e1cc8fce3c500c1fd21272bc4c126a9",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "7e4db806d5a1c66b5ff8b52f7eafb0189e1cc8fce3c500c1fd21272bc4c126a9"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/failure_modes.csv",
+      "expected_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/figures/computational_cost_by_platform.png",
+      "expected_sha256": "43b7a3b3073468aa7030e4a19f9792ee8f68405ea963485145d014d8bd8fa724",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "43b7a3b3073468aa7030e4a19f9792ee8f68405ea963485145d014d8bd8fa724"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/figures/pilot_label_distribution.png",
+      "expected_sha256": "0412086a2dc8c02212255ffafba1feec5e7112a915bda7ccb7604e3be5b965a2",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "0412086a2dc8c02212255ffafba1feec5e7112a915bda7ccb7604e3be5b965a2"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/figures/prediction_quality_by_platform.png",
+      "expected_sha256": "9a63ea941fec0a70b5fecbffc236a47b395d7d3700c4592921b961c577fdab24",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "9a63ea941fec0a70b5fecbffc236a47b395d7d3700c4592921b961c577fdab24"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/natural_distribution_baseline_comparison.csv",
+      "expected_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/prediction_quality_by_platform.csv",
+      "expected_sha256": "94a5bc3c1f039cf4a6a7b2074b5a870de41c57f6468db4da9e61233cf478d48d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "94a5bc3c1f039cf4a6a7b2074b5a870de41c57f6468db4da9e61233cf478d48d"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/raw_predictions.csv",
+      "expected_sha256": "a0dcd1b8a48680ad2dc4c24b988f1632605354d6d130ddbc2f652f184da6e984",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a0dcd1b8a48680ad2dc4c24b988f1632605354d6d130ddbc2f652f184da6e984"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_calibrated/raw_predictions.jsonl",
+      "expected_sha256": "c8edb976fbbc8a17862249f122a5256c9d1d9c4931cf738ec37288def7adc1b6",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c8edb976fbbc8a17862249f122a5256c9d1d9c4931cf738ec37288def7adc1b6"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/baseline_comparison.csv",
+      "expected_sha256": "29756aa61b9ced74e2df172c6d2fd7f533b24b12278a6cbb3e4c817c2eec30c0",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "29756aa61b9ced74e2df172c6d2fd7f533b24b12278a6cbb3e4c817c2eec30c0"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/computational_cost_by_platform.csv",
+      "expected_sha256": "988e78cb5970dadb78a1d21768179b9d0ac0fbd71407c8ce170025dc033c8325",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "988e78cb5970dadb78a1d21768179b9d0ac0fbd71407c8ce170025dc033c8325"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/always_stable_confusion_matrix.csv",
+      "expected_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/always_stable_confusion_matrix.png",
+      "expected_sha256": "e54b94657cf18de483b864147369a51d357dde880c72d6acff5c6962a4b206bd",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e54b94657cf18de483b864147369a51d357dde880c72d6acff5c6962a4b206bd"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/evoagentx_confusion_matrix.csv",
+      "expected_sha256": "b00328a40aaec80b777bf53aaf7e52bd8985ca07acbab8a6fa32c397a0085910",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "b00328a40aaec80b777bf53aaf7e52bd8985ca07acbab8a6fa32c397a0085910"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/evoagentx_confusion_matrix.png",
+      "expected_sha256": "8cabb6d096b8b85eb1c8a9c96f0b09a5ac887621868db07df19346797c6fb094",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "8cabb6d096b8b85eb1c8a9c96f0b09a5ac887621868db07df19346797c6fb094"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/hermes_ai_confusion_matrix.csv",
+      "expected_sha256": "ef6cf2e00fa0ba469da0a2e218967bb1f45d203fb3302fbbfc049ccf85dee67e",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ef6cf2e00fa0ba469da0a2e218967bb1f45d203fb3302fbbfc049ccf85dee67e"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/hermes_ai_confusion_matrix.png",
+      "expected_sha256": "9b139c1a169b78647ed7b2f3aa9ebb4620ea53f7bb3a142c42d72357e7eef0a6",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "9b139c1a169b78647ed7b2f3aa9ebb4620ea53f7bb3a142c42d72357e7eef0a6"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/historical_persistence_confusion_matrix.csv",
+      "expected_sha256": "da767bf8cadc1d4824ce9ecf75f10cfb4fd9fd5217c03744670336bf56ea7436",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "da767bf8cadc1d4824ce9ecf75f10cfb4fd9fd5217c03744670336bf56ea7436"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/historical_persistence_confusion_matrix.png",
+      "expected_sha256": "5728414fa8f25fe6012f4995f667929967de51f3cc38878d96e9a0a394bb9215",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "5728414fa8f25fe6012f4995f667929967de51f3cc38878d96e9a0a394bb9215"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/langgraph_confusion_matrix.csv",
+      "expected_sha256": "c9ccd636ecb6e74ed4a393d8f27ca54e12eff30e2cb723fb02e3902f92d557a4",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c9ccd636ecb6e74ed4a393d8f27ca54e12eff30e2cb723fb02e3902f92d557a4"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/langgraph_confusion_matrix.png",
+      "expected_sha256": "d065b3b43107ce12d1d4a22f546ae07bbe5aaf12d8cf5e4d97810ab4c38be6b6",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "d065b3b43107ce12d1d4a22f546ae07bbe5aaf12d8cf5e4d97810ab4c38be6b6"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/nanobot_confusion_matrix.csv",
+      "expected_sha256": "8169c538570f6d9adb10345b877ebf9804f5726dee413c7f6a2da7cafea24eb2",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "8169c538570f6d9adb10345b877ebf9804f5726dee413c7f6a2da7cafea24eb2"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/nanobot_confusion_matrix.png",
+      "expected_sha256": "3f3a71f172d6de6523268bdc1fe5015d4b863dcd9f75a2ceb3de962b3e5043b7",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3f3a71f172d6de6523268bdc1fe5015d4b863dcd9f75a2ceb3de962b3e5043b7"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/nanoclaw_confusion_matrix.csv",
+      "expected_sha256": "e361485b76af9e3eed94f56ffe99cab6509a67447b7f81adaa1a56104620d258",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e361485b76af9e3eed94f56ffe99cab6509a67447b7f81adaa1a56104620d258"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/nanoclaw_confusion_matrix.png",
+      "expected_sha256": "8284a531f4855257055553d7c04d3394e1d3974389ccc9ff2bf2a738520930ce",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "8284a531f4855257055553d7c04d3394e1d3974389ccc9ff2bf2a738520930ce"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/openclaw_confusion_matrix.csv",
+      "expected_sha256": "f578013555419a734d0680b45dfeec0625a7ce0d4b9e6301b186b2f2783cc990",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f578013555419a734d0680b45dfeec0625a7ce0d4b9e6301b186b2f2783cc990"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/openclaw_confusion_matrix.png",
+      "expected_sha256": "2df7a3c020650cbfe86e27215baa7c062c15b6cea7ee1ef1f4374400d186d341",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2df7a3c020650cbfe86e27215baa7c062c15b6cea7ee1ef1f4374400d186d341"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.csv",
+      "expected_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a69ef9cc30e25b4ff03ef7c926f5d45405b324c74804fce905253d9046449aba"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/simple_ml_softmax_logistic_confusion_matrix.png",
+      "expected_sha256": "1335e50d194aca6d1411e6860e89ae35d4dd1c6c9af3cfa3f3bf05932158f4bc",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1335e50d194aca6d1411e6860e89ae35d4dd1c6c9af3cfa3f3bf05932158f4bc"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/threshold_rule_confusion_matrix.csv",
+      "expected_sha256": "fd164b71147e21d74116f31d8b258ce440c844cbda6cb98ae4c234d9f8e2ff95",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "fd164b71147e21d74116f31d8b258ce440c844cbda6cb98ae4c234d9f8e2ff95"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/confusion_matrices/threshold_rule_confusion_matrix.png",
+      "expected_sha256": "ac6cb2b5d64dcfe3e3a5d14da3d8f820ea56891ca5a984e9ec0b84636f05bb36",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ac6cb2b5d64dcfe3e3a5d14da3d8f820ea56891ca5a984e9ec0b84636f05bb36"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/cost_report.csv",
+      "expected_sha256": "988e78cb5970dadb78a1d21768179b9d0ac0fbd71407c8ce170025dc033c8325",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "988e78cb5970dadb78a1d21768179b9d0ac0fbd71407c8ce170025dc033c8325"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/evaluation_summary.md",
+      "expected_sha256": "6097a174f78a3f23b4b004a3ddad53424b64bbe46e27ac868e0480e3dfdef376",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "6097a174f78a3f23b4b004a3ddad53424b64bbe46e27ac868e0480e3dfdef376"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/failure_modes.csv",
+      "expected_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1f1c41857f3bf30f7e6db7d142ea97c6fc7c0ded2cef167217151eed232dc219"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/figures/computational_cost_by_platform.png",
+      "expected_sha256": "43b7a3b3073468aa7030e4a19f9792ee8f68405ea963485145d014d8bd8fa724",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "43b7a3b3073468aa7030e4a19f9792ee8f68405ea963485145d014d8bd8fa724"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/figures/pilot_label_distribution.png",
+      "expected_sha256": "0412086a2dc8c02212255ffafba1feec5e7112a915bda7ccb7604e3be5b965a2",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "0412086a2dc8c02212255ffafba1feec5e7112a915bda7ccb7604e3be5b965a2"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/figures/prediction_quality_by_platform.png",
+      "expected_sha256": "089818637b53eb23a6e50a212df0ea293bb4de7030827678e9d3b3f56f6ed5c0",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "089818637b53eb23a6e50a212df0ea293bb4de7030827678e9d3b3f56f6ed5c0"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/natural_distribution_baseline_comparison.csv",
+      "expected_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "2cb8aedea3d4236b13b50392cad5a9a2ae1c29572b6f660c0d140dd67d8d5471"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/prediction_quality_by_platform.csv",
+      "expected_sha256": "a093e165d5b92815004449b133e139de55f099e03484ca30d294881a3fae32a5",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a093e165d5b92815004449b133e139de55f099e03484ca30d294881a3fae32a5"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/raw_predictions.csv",
+      "expected_sha256": "7bc41e278924b940bef9684e468be930acebfac1c6dd42a1eb2562824a513dc5",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "7bc41e278924b940bef9684e468be930acebfac1c6dd42a1eb2562824a513dc5"
+    },
+    {
+      "file_path": "results/validation_120/evaluation_verifier_raw/raw_predictions.jsonl",
+      "expected_sha256": "b3ed0f7d1334a81c3d65ab48023f1c38e4eb9a27534528921253316bc4e6e9c4",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "b3ed0f7d1334a81c3d65ab48023f1c38e4eb9a27534528921253316bc4e6e9c4"
+    },
+    {
+      "file_path": "results/validation_120/model_backend.json",
+      "expected_sha256": "28ced151f98f1731defcce1f0aa8312aed8ba73bfe7ac840aeb352fd99213150",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "28ced151f98f1731defcce1f0aa8312aed8ba73bfe7ac840aeb352fd99213150"
+    },
+    {
+      "file_path": "results/validation_120/parametric_memory_leakage_note.md",
+      "expected_sha256": "f6822fd7ba8cf5cff99bd64ad258111223e6afc23b1a410d706776c5404a4343",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f6822fd7ba8cf5cff99bd64ad258111223e6afc23b1a410d706776c5404a4343"
+    },
+    {
+      "file_path": "results/validation_120/pre_scaling_decision_report.md",
+      "expected_sha256": "402c54dba2a957436cc0c7efb01ba23e388e0dc00976997c9b431a8a1e56b7f9",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "402c54dba2a957436cc0c7efb01ba23e388e0dc00976997c9b431a8a1e56b7f9"
+    },
+    {
+      "file_path": "results/validation_120/predictions_anonymization_anonymized/evoagentx_predictions.jsonl",
+      "expected_sha256": "316449e17b5da0da77a2830a4c00739c6537a51b18dda9cd6f5f6feaad2554ba",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "316449e17b5da0da77a2830a4c00739c6537a51b18dda9cd6f5f6feaad2554ba"
+    },
+    {
+      "file_path": "results/validation_120/predictions_anonymization_anonymized/hermes_ai_predictions.jsonl",
+      "expected_sha256": "0f23fa30f987debcc4764e93ec81ed2773f63e0ee608dafc54bd24c5ecc47478",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "0f23fa30f987debcc4764e93ec81ed2773f63e0ee608dafc54bd24c5ecc47478"
+    },
+    {
+      "file_path": "results/validation_120/predictions_anonymization_anonymized/langgraph_predictions.jsonl",
+      "expected_sha256": "8849025e11f22ef504b4cb3ba9ece09be7ba9a56d3697b067bc855b17236e6d5",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "8849025e11f22ef504b4cb3ba9ece09be7ba9a56d3697b067bc855b17236e6d5"
+    },
+    {
+      "file_path": "results/validation_120/predictions_anonymization_anonymized/nanobot_predictions.jsonl",
+      "expected_sha256": "d391da3ccac67f060634bae82079277518031f7cfa4bef52c489b8cd753e8c2d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "d391da3ccac67f060634bae82079277518031f7cfa4bef52c489b8cd753e8c2d"
+    },
+    {
+      "file_path": "results/validation_120/predictions_anonymization_anonymized/nanoclaw_predictions.jsonl",
+      "expected_sha256": "adadc8b24f672faa17089b9a15cba28ffb5867cf773a311f101421153268cb62",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "adadc8b24f672faa17089b9a15cba28ffb5867cf773a311f101421153268cb62"
+    },
+    {
+      "file_path": "results/validation_120/predictions_anonymization_anonymized/openclaw_predictions.jsonl",
+      "expected_sha256": "541681686c3e9bbfb3cfb4f7f78f1cc38570236f8155b7cb82f35d62482f0715",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "541681686c3e9bbfb3cfb4f7f78f1cc38570236f8155b7cb82f35d62482f0715"
+    },
+    {
+      "file_path": "results/validation_120/predictions_anonymization_original/evoagentx_predictions.jsonl",
+      "expected_sha256": "fc2337bff0038b778dccf08c54e90183ef800cea96ef194ab763bff700833ab0",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "fc2337bff0038b778dccf08c54e90183ef800cea96ef194ab763bff700833ab0"
+    },
+    {
+      "file_path": "results/validation_120/predictions_anonymization_original/hermes_ai_predictions.jsonl",
+      "expected_sha256": "d07181fb4a563402a9c58ec5563fde0fef3031a9e87cbd5617c891b02dd3dd07",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "d07181fb4a563402a9c58ec5563fde0fef3031a9e87cbd5617c891b02dd3dd07"
+    },
+    {
+      "file_path": "results/validation_120/predictions_anonymization_original/langgraph_predictions.jsonl",
+      "expected_sha256": "c751964ea32cff4c9c423f5f765c8aaaa05233779aea8cfad1f7adc0a8cef240",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c751964ea32cff4c9c423f5f765c8aaaa05233779aea8cfad1f7adc0a8cef240"
+    },
+    {
+      "file_path": "results/validation_120/predictions_anonymization_original/nanobot_predictions.jsonl",
+      "expected_sha256": "419e10c1af74781cf40465d633423e73c46fa0cf72b0c3662b234d419d459ba2",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "419e10c1af74781cf40465d633423e73c46fa0cf72b0c3662b234d419d459ba2"
+    },
+    {
+      "file_path": "results/validation_120/predictions_anonymization_original/nanoclaw_predictions.jsonl",
+      "expected_sha256": "51de9d18e9d3d025b1d52fe5105919594a248cc5f3259fb7adfdd705b56bc128",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "51de9d18e9d3d025b1d52fe5105919594a248cc5f3259fb7adfdd705b56bc128"
+    },
+    {
+      "file_path": "results/validation_120/predictions_anonymization_original/openclaw_predictions.jsonl",
+      "expected_sha256": "fde4dd1a4ea3db6c60d164fa8e0b3ace5cd55e8a67219ab4f78d33e9019024ae",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "fde4dd1a4ea3db6c60d164fa8e0b3ace5cd55e8a67219ab4f78d33e9019024ae"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_calibrated/evoagentx_predictions.jsonl",
+      "expected_sha256": "01a82b182935111028cfeccbec6b0f5d1d61b82f042d0c7290837fe1b279ef5f",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "01a82b182935111028cfeccbec6b0f5d1d61b82f042d0c7290837fe1b279ef5f"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_calibrated/hermes_ai_predictions.jsonl",
+      "expected_sha256": "f00ac83c0d43e3e3acdb3e8b0dcbbe66f0bfd931d3fb782d34e31807504791f4",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "f00ac83c0d43e3e3acdb3e8b0dcbbe66f0bfd931d3fb782d34e31807504791f4"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_calibrated/langgraph_predictions.jsonl",
+      "expected_sha256": "581a7880fbea8092ff2b949432f66c0654620f68460270ba283530b7b3df4277",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "581a7880fbea8092ff2b949432f66c0654620f68460270ba283530b7b3df4277"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_calibrated/nanobot_predictions.jsonl",
+      "expected_sha256": "e49eb650974380fab7026d22e3c8b483acf584ee3d49c32d59def368cf37b793",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e49eb650974380fab7026d22e3c8b483acf584ee3d49c32d59def368cf37b793"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_calibrated/nanoclaw_predictions.jsonl",
+      "expected_sha256": "3eeb8befddf67b60ddc6c399a0e82b15eea99f421a36d85917bff28f433c1868",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3eeb8befddf67b60ddc6c399a0e82b15eea99f421a36d85917bff28f433c1868"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_calibrated/openclaw_predictions.jsonl",
+      "expected_sha256": "bc79d1f3c284183ea6c6a9c1f71c4d26421c331e4c6d8f5e1f6533b6f6ef4b7c",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "bc79d1f3c284183ea6c6a9c1f71c4d26421c331e4c6d8f5e1f6533b6f6ef4b7c"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_raw/canonical_manifest.json",
+      "expected_sha256": "00e8f672f54619f22a09ff6161ab6cd3509c169b578b4ebe144f49e00aa34c7d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "00e8f672f54619f22a09ff6161ab6cd3509c169b578b4ebe144f49e00aa34c7d"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_raw/evoagentx_predictions.jsonl",
+      "expected_sha256": "acbf227547ddc7d13828417b8dc4e179d5517a35df6ea11b96fd411f8f1290a9",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "acbf227547ddc7d13828417b8dc4e179d5517a35df6ea11b96fd411f8f1290a9"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_raw/hermes_ai_predictions.jsonl",
+      "expected_sha256": "eb49405ae9e81b88d9bee1ea5f6c98e7583872d1d835e51ffc3fb818a37db212",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "eb49405ae9e81b88d9bee1ea5f6c98e7583872d1d835e51ffc3fb818a37db212"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_raw/langgraph_predictions.jsonl",
+      "expected_sha256": "24ef6e62db870c624976777684dd428d9714cae0aa52caa38335a51bb50d4471",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "24ef6e62db870c624976777684dd428d9714cae0aa52caa38335a51bb50d4471"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_raw/nanobot_predictions.jsonl",
+      "expected_sha256": "05cf1d62e26de6f826be38e56809667b42fa175e0597282c65faf99496d71a58",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "05cf1d62e26de6f826be38e56809667b42fa175e0597282c65faf99496d71a58"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_raw/nanoclaw_predictions.jsonl",
+      "expected_sha256": "a3fbeb2b1512ea025975d720342a1d6206f5f57e51f36ef2358906839e83024a",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a3fbeb2b1512ea025975d720342a1d6206f5f57e51f36ef2358906839e83024a"
+    },
+    {
+      "file_path": "results/validation_120/predictions_base_raw/openclaw_predictions.jsonl",
+      "expected_sha256": "3daed66ed1d9120f3a67368c1ac1502a8e6b45d6bb91c87150e02b3b84fd9179",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3daed66ed1d9120f3a67368c1ac1502a8e6b45d6bb91c87150e02b3b84fd9179"
+    },
+    {
+      "file_path": "results/validation_120/predictions_verifier_calibrated/evoagentx_predictions.jsonl",
+      "expected_sha256": "d5dd8cc1341469c581ebb0d541ed0d884688bc586c6f36213c9b7107551a4c79",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "d5dd8cc1341469c581ebb0d541ed0d884688bc586c6f36213c9b7107551a4c79"
+    },
+    {
+      "file_path": "results/validation_120/predictions_verifier_calibrated/hermes_ai_predictions.jsonl",
+      "expected_sha256": "1fea7393a0bc69de9df8ab8a33259e6fb16a89c2d09bc01128efc0e41aa485d3",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1fea7393a0bc69de9df8ab8a33259e6fb16a89c2d09bc01128efc0e41aa485d3"
+    },
+    {
+      "file_path": "results/validation_120/predictions_verifier_calibrated/langgraph_predictions.jsonl",
+      "expected_sha256": "6887e19a9b3c7746a4c959020338ea8a1628d441705abb1da3eeaf817a49f2dd",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "6887e19a9b3c7746a4c959020338ea8a1628d441705abb1da3eeaf817a49f2dd"
+    },
+    {
+      "file_path": "results/validation_120/predictions_verifier_calibrated/nanobot_predictions.jsonl",
+      "expected_sha256": "69073b8aef529640673a6885c8d806f0b0476b22c7b5e57ce2c8fe07ffc2dd22",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "69073b8aef529640673a6885c8d806f0b0476b22c7b5e57ce2c8fe07ffc2dd22"
+    },
+    {
+      "file_path": "results/validation_120/predictions_verifier_calibrated/nanoclaw_predictions.jsonl",
+      "expected_sha256": "22f3ef01decfe4932e46a9113528d2d7f9c62b69024c53206892225b5c470d0a",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "22f3ef01decfe4932e46a9113528d2d7f9c62b69024c53206892225b5c470d0a"
+    },
+    {
+      "file_path": "results/validation_120/predictions_verifier_calibrated/openclaw_predictions.jsonl",
+      "expected_sha256": "663e323dc3fc1658b6fdec04da00b227c84de64add72fe466053dd26e382861f",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "663e323dc3fc1658b6fdec04da00b227c84de64add72fe466053dd26e382861f"
+    },
+    {
+      "file_path": "results/validation_120/predictions_verifier_raw/evoagentx_predictions.jsonl",
+      "expected_sha256": "3da6c6e8dd760ca8dfc4ae99174e7cfce781e844130995fdd5697ba2d96ba188",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3da6c6e8dd760ca8dfc4ae99174e7cfce781e844130995fdd5697ba2d96ba188"
+    },
+    {
+      "file_path": "results/validation_120/predictions_verifier_raw/hermes_ai_predictions.jsonl",
+      "expected_sha256": "c2b77f16a84f6e4bb460769eff50d7ddd0bd2f429c86eb225f88c5f0e30caf75",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c2b77f16a84f6e4bb460769eff50d7ddd0bd2f429c86eb225f88c5f0e30caf75"
+    },
+    {
+      "file_path": "results/validation_120/predictions_verifier_raw/langgraph_predictions.jsonl",
+      "expected_sha256": "dc8b55e397c15635d4d48d4bce9b2e028d9fe0d0dcd8bc7306a6c5fbf0b747a8",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "dc8b55e397c15635d4d48d4bce9b2e028d9fe0d0dcd8bc7306a6c5fbf0b747a8"
+    },
+    {
+      "file_path": "results/validation_120/predictions_verifier_raw/nanobot_predictions.jsonl",
+      "expected_sha256": "cb2d38209f46c84029dd4d4cd57cc222ff2c23efe4e09032092faedcef9714cf",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "cb2d38209f46c84029dd4d4cd57cc222ff2c23efe4e09032092faedcef9714cf"
+    },
+    {
+      "file_path": "results/validation_120/predictions_verifier_raw/nanoclaw_predictions.jsonl",
+      "expected_sha256": "bcd1266e5e3c13b61a0dc4f6cc1e108b805aa35b8ab84ba4802bb22bad9632f2",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "bcd1266e5e3c13b61a0dc4f6cc1e108b805aa35b8ab84ba4802bb22bad9632f2"
+    },
+    {
+      "file_path": "results/validation_120/predictions_verifier_raw/openclaw_predictions.jsonl",
+      "expected_sha256": "9d2b4d85bc3a13ed855fe7ea4ab3765cd72fc51aac5200c5c244363d33e41ee6",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "9d2b4d85bc3a13ed855fe7ea4ab3765cd72fc51aac5200c5c244363d33e41ee6"
+    },
+    {
+      "file_path": "results/validation_120/prompt_packets_120.jsonl",
+      "expected_sha256": "9a0f11dd09e61d45cc95d75261bfd8ecebab702ded4feb5ad92e2d2335241db1",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "9a0f11dd09e61d45cc95d75261bfd8ecebab702ded4feb5ad92e2d2335241db1"
+    },
+    {
+      "file_path": "results/validation_120/validation_120_summary.md",
+      "expected_sha256": "4d1befe1f64d1c6913891bc3cc4299cb581b1347e28274d386637797b84da787",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "4d1befe1f64d1c6913891bc3cc4299cb581b1347e28274d386637797b84da787"
+    },
+    {
+      "file_path": "results/validation_120/validation_case_list.csv",
+      "expected_sha256": "7879c49b935eff464fc92a4131c5f4ecc3d4daf821177307b5c4d29f287c3378",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "7879c49b935eff464fc92a4131c5f4ecc3d4daf821177307b5c4d29f287c3378"
+    },
+    {
+      "file_path": "results/validation_120/validation_case_selection_report.md",
+      "expected_sha256": "458568b707b33dc6ec1795e295da5db572c47ca5ec7e7144608ff3b294e6313d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "458568b707b33dc6ec1795e295da5db572c47ca5ec7e7144608ff3b294e6313d"
+    },
+    {
+      "file_path": "results/validation_120/validation_variant_comparison.csv",
+      "expected_sha256": "805e9f1c4201c4a1a5f5c2df54e83708533e6d2919a38d61bb903ea6ca6d075c",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "805e9f1c4201c4a1a5f5c2df54e83708533e6d2919a38d61bb903ea6ca6d075c"
+    },
+    {
+      "file_path": "results/validation_120/verifier_ablation_report.md",
+      "expected_sha256": "72724860a7b9ad38e3f9341fcc1a54a8fd8e2b01e38e6a02a3d84dd6182d7e64",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "72724860a7b9ad38e3f9341fcc1a54a8fd8e2b01e38e6a02a3d84dd6182d7e64"
+    },
+    {
+      "file_path": "scripts/01_build_full_case_pool.py",
+      "expected_sha256": "b307fae52c55ff88f7d7716bfd4015ce7dd9ea584fe4b2e2c7347029016e2f3f",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "b307fae52c55ff88f7d7716bfd4015ce7dd9ea584fe4b2e2c7347029016e2f3f"
+    },
+    {
+      "file_path": "scripts/02_build_validation_120.py",
+      "expected_sha256": "9e3e14ca4b60b76263c8d31cc33fd4ec8e8ddb954bae9c4f017a565b1d5e3423",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "9e3e14ca4b60b76263c8d31cc33fd4ec8e8ddb954bae9c4f017a565b1d5e3423"
+    },
+    {
+      "file_path": "scripts/03_run_validation_120_experiments.sh",
+      "expected_sha256": "3733dcc12ebb5d5230b0550d9916e09243d637a1520639703a0bf9fa7717a9c1",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "3733dcc12ebb5d5230b0550d9916e09243d637a1520639703a0bf9fa7717a9c1"
+    },
+    {
+      "file_path": "scripts/04_canonicalize_predictions.py",
+      "expected_sha256": "4cc9fa7fe6b5de9558ce134d5b24a056704c886fa12035eca2f0ebf567c51e04",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "4cc9fa7fe6b5de9558ce134d5b24a056704c886fa12035eca2f0ebf567c51e04"
+    },
+    {
+      "file_path": "scripts/05_apply_calibration.py",
+      "expected_sha256": "c4c3d3968b5c45a518e145292e506c5fbf8c24761d8c3f46ffc92ad45194d210",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c4c3d3968b5c45a518e145292e506c5fbf8c24761d8c3f46ffc92ad45194d210"
+    },
+    {
+      "file_path": "scripts/06_evaluate_predictions.py",
+      "expected_sha256": "1ffcd7b92c6722b42b08eaf2e8983ad601f916e0043af1964cbe4af2b4d94110",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "1ffcd7b92c6722b42b08eaf2e8983ad601f916e0043af1964cbe4af2b4d94110"
+    },
+    {
+      "file_path": "scripts/07_run_verifier_ablation.py",
+      "expected_sha256": "b6490d27cd78e281740800221d9cb63966eae024a0d92c5e7515c47bfe1d3f2d",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "b6490d27cd78e281740800221d9cb63966eae024a0d92c5e7515c47bfe1d3f2d"
+    },
+    {
+      "file_path": "scripts/08_finalize_validation_120.py",
+      "expected_sha256": "c8916f72fc64a6f0e702f5e467fdbc5878310ed887c9ca404bb7e11189dc3ae5",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "c8916f72fc64a6f0e702f5e467fdbc5878310ed887c9ca404bb7e11189dc3ae5"
+    },
+    {
+      "file_path": "scripts/10_build_full_507_packets.py",
+      "expected_sha256": "9a9ebd4b544acb5bd091245334a25e9dc28ec0160811726fd8a7ef0664284ad0",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "9a9ebd4b544acb5bd091245334a25e9dc28ec0160811726fd8a7ef0664284ad0"
+    },
+    {
+      "file_path": "scripts/11_prepare_huggingface_dataset.py",
+      "expected_sha256": "09b034b01149447d84a52ba6021d5370e1987d2ba0068497ae568b0d2d1faec7",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "09b034b01149447d84a52ba6021d5370e1987d2ba0068497ae568b0d2d1faec7"
+    },
+    {
+      "file_path": "scripts/run_full_507_nanobot.sh",
+      "expected_sha256": "e97cfe90afe5da4d81dd9f0ce3c0d4c006066ca8355b8f3657edca5853867858",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "e97cfe90afe5da4d81dd9f0ce3c0d4c006066ca8355b8f3657edca5853867858"
+    },
+    {
+      "file_path": "scripts/run_full_507_openclaw_adapter.sh",
+      "expected_sha256": "b6524d2edc8a1380e1b2c750efe068e272e44d437ef8670f5e6dd8baa67dab81",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "b6524d2edc8a1380e1b2c750efe068e272e44d437ef8670f5e6dd8baa67dab81"
+    },
+    {
+      "file_path": "scripts/stableeval_packet_builder.py",
+      "expected_sha256": "23a17e57021393a1fed8a5603a61cfbda033b5d46d0347cd5db01e42fb3099c2",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "23a17e57021393a1fed8a5603a61cfbda033b5d46d0347cd5db01e42fb3099c2"
+    },
+    {
+      "file_path": "src/agents/run_platform.py",
+      "expected_sha256": "6dd457e9857a892a7686fb4755e0a9ba5695a1222a0e20690f43ceec1a71d8b7",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "6dd457e9857a892a7686fb4755e0a9ba5695a1222a0e20690f43ceec1a71d8b7"
+    },
+    {
+      "file_path": "src/stableeval/__init__.py",
+      "expected_sha256": "a2d44e7701ed1e8f983419303113cfebb9c8e0d921c949cf7c51399eb5464d12",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "a2d44e7701ed1e8f983419303113cfebb9c8e0d921c949cf7c51399eb5464d12"
+    },
+    {
+      "file_path": "src/stableeval/policy.py",
+      "expected_sha256": "ce9865db45b14ea9bd81bbe13c81025b3379d7692b6ba24ada8181a992760f99",
+      "exists_now": true,
+      "status": "unchanged",
+      "current_sha256": "ce9865db45b14ea9bd81bbe13c81025b3379d7692b6ba24ada8181a992760f99"
+    }
+  ]
+}

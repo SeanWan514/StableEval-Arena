@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-06-04T00:23:46.265303+00:00",
+  "source_dry_run_file": "results/scaling_507/raw_outputs/langgraph_qwen_507_dry_run/langgraph_predictions_dry_run.jsonl",
+  "source_continuation_file": "results/scaling_507/raw_outputs/langgraph_qwen_507_continuation/langgraph_predictions_continuation.jsonl",
+  "case_list_file": "results/scaling_507/case_ids/natural_distribution_507_case_list.csv",
+  "dry_run_records": 5,
+  "continuation_records": 502,
+  "total_input_records": 507,
+  "total_merged_records": 507,
+  "unique_case_ids": 507,
+  "duplicate_case_ids": [],
+  "missing_case_ids": [],
+  "extra_case_ids": [],
+  "corrupted_dry_run_lines": [],
+  "corrupted_continuation_lines": [],
+  "valid_output_records": 507,
+  "invalid_output_records": 0,
+  "model_backends_observed": [
+    "openrouter/qwen/qwen-2.5-72b-instruct"
+  ],
+  "prediction_models_observed": [
+    "qwen/qwen-2.5-72b-instruct"
+  ],
+  "complete_file": "results/scaling_507/raw_outputs/langgraph_qwen_507_complete/langgraph_predictions_507_complete.jsonl",
+  "evaluator_compatible_file": "results/scaling_507/raw_outputs/langgraph_qwen_507_complete/langgraph_predictions.jsonl",
+  "complete_sha256": "df0b8a8a313146e1690bbfd4125475e9fe73e14b8c40380d0e05f0328c006b85",
+  "evaluator_sha256": "df0b8a8a313146e1690bbfd4125475e9fe73e14b8c40380d0e05f0328c006b85"
+}

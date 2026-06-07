@@ -1,0 +1,7 @@
+component,same_different_unclear,evidence_path,concern_level,notes
+Task framing,same,case lists and prompt packets,None,"30-day lookback, hidden 7-day horizon, structured risk assessment."
+Prompt contract,same,prompts/risk_sensitive_agent_prompt.md; scaling prompt packets,None,Same strict JSON schema.
+Backend model,same,raw outputs and retry log,Low,Successful records show openrouter/qwen/qwen-2.5-72b-instruct at temperature 0; retry log shows transient OpenRouter upstream provider errors but no non-Qwen model.
+Calibration rule,same,scripts/05_apply_calibration.py,None,Frozen risk_sensitive_v1_posthoc_frozen rule.
+Evaluator definitions,same_with_manual_application,scripts/06_evaluate_predictions.py formulas,Low,Direct evaluator invocation failed in internal ML baseline branch; metrics computed with same local formulas.
+Case IDs,same_subset,validation_case_list and 507 case list,None,All 120 IDs are in 507.

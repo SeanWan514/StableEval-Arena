@@ -1,0 +1,45 @@
+variant,audit_item,value,interpretation
+raw,case_count_joined,120.0,Expected 120 same-case records.
+raw,label_agreement_rate,0.8333333333333334,Prediction-label consistency between original 120 run and 507 rerun on the same 120 case IDs.
+raw,changed_prediction_count,20.0,Count of case-level label changes across reruns.
+raw,p_depeg_correlation,0.3962121056210773,Correlation of predicted depeg probabilities across reruns.
+raw,p_depeg_mean_abs_diff,0.03916666666666667,Average absolute probability drift across reruns.
+raw,p_depeg_median_abs_diff,0.0,Median absolute probability drift across reruns.
+raw,maxdev_correlation,0.09113927239939289,Correlation of predicted max-deviation estimates across reruns.
+raw,maxdev_mean_abs_diff_bps,22.516666666666666,Average absolute max-deviation drift across reruns.
+raw,maxdev_median_abs_diff_bps,0.0,Median absolute max-deviation drift across reruns.
+raw,direction_agreement_rate,0.8583333333333333,Agreement of predicted deviation direction across reruns.
+raw,confidence_correlation,0.39382743583907026,Correlation of reported confidence across reruns.
+raw,confidence_mean_abs_diff,0.03583333333333334,Average absolute confidence drift across reruns.
+raw,input_packet_hash_agreement_rate,0.0,Whether predictions report the same input packet hashes for same case IDs.
+calibrated,case_count_joined,120.0,Expected 120 same-case records.
+calibrated,label_agreement_rate,0.8416666666666667,Prediction-label consistency between original 120 run and 507 rerun on the same 120 case IDs.
+calibrated,changed_prediction_count,19.0,Count of case-level label changes across reruns.
+calibrated,p_depeg_correlation,0.3962121056210773,Correlation of predicted depeg probabilities across reruns.
+calibrated,p_depeg_mean_abs_diff,0.03916666666666667,Average absolute probability drift across reruns.
+calibrated,p_depeg_median_abs_diff,0.0,Median absolute probability drift across reruns.
+calibrated,maxdev_correlation,0.09113927239939289,Correlation of predicted max-deviation estimates across reruns.
+calibrated,maxdev_mean_abs_diff_bps,22.516666666666666,Average absolute max-deviation drift across reruns.
+calibrated,maxdev_median_abs_diff_bps,0.0,Median absolute max-deviation drift across reruns.
+calibrated,direction_agreement_rate,0.8583333333333333,Agreement of predicted deviation direction across reruns.
+calibrated,confidence_correlation,0.39382743583907026,Correlation of reported confidence across reruns.
+calibrated,confidence_mean_abs_diff,0.03583333333333334,Average absolute confidence drift across reruns.
+calibrated,input_packet_hash_agreement_rate,0.0,Whether predictions report the same input packet hashes for same case IDs.
+raw,transition_stable_to_stable,12.0,Prediction transition count
+raw,transition_stable_to_watch,7.0,Prediction transition count
+raw,transition_stable_to_stress,0.0,Prediction transition count
+raw,transition_watch_to_stable,11.0,Prediction transition count
+raw,transition_watch_to_watch,88.0,Prediction transition count
+raw,transition_watch_to_stress,1.0,Prediction transition count
+raw,transition_stress_to_stable,0.0,Prediction transition count
+raw,transition_stress_to_watch,1.0,Prediction transition count
+raw,transition_stress_to_stress,0.0,Prediction transition count
+calibrated,transition_stable_to_stable,16.0,Prediction transition count
+calibrated,transition_stable_to_watch,6.0,Prediction transition count
+calibrated,transition_stable_to_stress,0.0,Prediction transition count
+calibrated,transition_watch_to_stable,11.0,Prediction transition count
+calibrated,transition_watch_to_watch,82.0,Prediction transition count
+calibrated,transition_watch_to_stress,2.0,Prediction transition count
+calibrated,transition_stress_to_stable,0.0,Prediction transition count
+calibrated,transition_stress_to_watch,0.0,Prediction transition count
+calibrated,transition_stress_to_stress,3.0,Prediction transition count

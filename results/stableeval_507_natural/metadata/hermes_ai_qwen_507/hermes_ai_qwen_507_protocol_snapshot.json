@@ -1,0 +1,40 @@
+{
+  "created_at_utc": "2026-06-04T05:22:28.877819+00:00",
+  "agent": "Hermes AI",
+  "canonical_repository_agent_identifier": "hermes_ai",
+  "backend_model": "qwen/qwen-2.5-72b-instruct",
+  "model_backend_record_value": "openrouter/qwen/qwen-2.5-72b-instruct",
+  "provider": "OpenRouter",
+  "temperature": 0,
+  "prompt_packet_file": "results/scaling_507/prompt_packets/natural_distribution_507_prompt_packets.jsonl",
+  "case_list_file": "results/scaling_507/case_ids/natural_distribution_507_case_list.csv",
+  "system_prompt_file": "prompts/risk_sensitive_agent_prompt.md",
+  "output_schema": [
+    "case_id",
+    "platform",
+    "model_backend",
+    "execution_mode",
+    "price_stability_next_7d",
+    "p_depeg_next_7d",
+    "predicted_max_abs_deviation_bps",
+    "predicted_direction",
+    "confidence",
+    "rationale",
+    "evidence_used"
+  ],
+  "calibration_rule": "risk_sensitive_v1_posthoc_frozen in scripts/05_apply_calibration.py",
+  "evaluator_script": "scripts/06_evaluate_predictions.py",
+  "baseline_table_used": "results/scaling_507/tables/baseline_results_507.csv",
+  "nanobot_comparison_files": [
+    "results/scaling_507/tables/nanobot_qwen_507_results.csv",
+    "results/scaling_507/reports/NANOBOT_120_VS_507_ALIGNMENT_AUDIT.md"
+  ],
+  "langgraph_comparison_files": [
+    "results/scaling_507/tables/langgraph_qwen_507/langgraph_507_results.csv",
+    "results/scaling_507/reports/langgraph_qwen_507/LANGGRAPH_120_VS_507_ALIGNMENT_AUDIT.md"
+  ],
+  "only_intended_experimental_difference": "Only intended experimental difference from LangGraph 507 is agent = Hermes AI.",
+  "execution_mode_expected": "hermes_agent_llamaindex_achat_openrouter_llm",
+  "output_root": "results/scaling_507",
+  "agent_specific_prefix": "hermes_ai_qwen_507"
+}

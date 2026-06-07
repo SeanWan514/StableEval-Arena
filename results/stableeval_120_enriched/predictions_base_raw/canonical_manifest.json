@@ -1,0 +1,35 @@
+{
+  "manifest": [
+    {
+      "platform": "nanobot",
+      "rows": 120,
+      "valid_rows": 120
+    },
+    {
+      "platform": "langgraph",
+      "rows": 120,
+      "valid_rows": 120
+    },
+    {
+      "platform": "hermes_ai",
+      "rows": 120,
+      "valid_rows": 120
+    },
+    {
+      "platform": "evoagentx",
+      "rows": 120,
+      "valid_rows": 120
+    },
+    {
+      "platform": "openclaw",
+      "rows": 120,
+      "valid_rows": 120
+    },
+    {
+      "platform": "nanoclaw",
+      "rows": 120,
+      "valid_rows": 120
+    }
+  ],
+  "errors": []
+}

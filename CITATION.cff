@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use StableEval Arena, please cite the associated paper and this repository."
+title: "StableEval Arena"
+type: software
+authors:
+  - name: "Sean Wan, Dongping Liu, Luyao Zhang"
+date-released: "2026-06-08"
+license: "Apache-2.0"
+repository-code: "https://github.com/StableEval-Arena"
+abstract: "Historical-replay benchmark for cost-aware, trustworthy agentic AI evaluation on stablecoin price-stability prediction, including StableEval-120-Enriched and StableEval-507-Natural."
+keywords:
+  - agentic-ai
+  - evaluation
+  - trustworthiness
+  - stablecoins
+  - benchmark

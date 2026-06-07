@@ -1,0 +1,6 @@
+# EvoAgentX 0.1.0 imports these modules in workflow/tool paths but did not
+# install them in the earlier environment through dependency metadata.
+ddgs>=9.14
+psycopg2-binary>=2.9
+feedparser>=6.0
+

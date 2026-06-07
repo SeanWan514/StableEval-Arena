@@ -1,0 +1,4 @@
+{
+  "selected_model_id": "qwen/qwen-2.5-72b-instruct",
+  "selection_reason": "Frozen intermediate-validation backend inherited from the improved 30-case pilot: reliable six-platform OpenRouter execution with qwen/qwen-2.5-72b-instruct at temperature 0."
+}

@@ -1,0 +1,23 @@
+variant,audit_item,value,interpretation
+raw,case_count,120.0,Same-case overlap count.
+raw,label_agreement_rate,0.9083333333333333,Share of original 120 predictions reproduced by 507 same-case rerun.
+raw,p_depeg_correlation,0.7511839037707755,Correlation of depeg probabilities.
+raw,p_depeg_mean_abs_diff,0.03291666666666667,Average absolute probability shift.
+raw,p_depeg_median_abs_diff,0.0,Median absolute probability shift.
+raw,maxdev_correlation,0.9550877921488214,Correlation of max-deviation estimates.
+raw,maxdev_mean_abs_diff_bps,12.691666666666666,Average absolute max-deviation shift.
+raw,maxdev_median_abs_diff_bps,0.0,Median absolute max-deviation shift.
+raw,direction_agreement_rate,0.8,Direction agreement.
+raw,confidence_correlation,0.7306279772652114,Confidence correlation.
+raw,confidence_mean_abs_diff,0.023750000000000004,Average confidence shift.
+calibrated,case_count,120.0,Same-case overlap count.
+calibrated,label_agreement_rate,0.9083333333333333,Share of original 120 predictions reproduced by 507 same-case rerun.
+calibrated,p_depeg_correlation,0.7511839037707755,Correlation of depeg probabilities.
+calibrated,p_depeg_mean_abs_diff,0.03291666666666667,Average absolute probability shift.
+calibrated,p_depeg_median_abs_diff,0.0,Median absolute probability shift.
+calibrated,maxdev_correlation,0.9550877921488214,Correlation of max-deviation estimates.
+calibrated,maxdev_mean_abs_diff_bps,12.691666666666666,Average absolute max-deviation shift.
+calibrated,maxdev_median_abs_diff_bps,0.0,Median absolute max-deviation shift.
+calibrated,direction_agreement_rate,0.8,Direction agreement.
+calibrated,confidence_correlation,0.7306279772652114,Confidence correlation.
+calibrated,confidence_mean_abs_diff,0.023750000000000004,Average confidence shift.

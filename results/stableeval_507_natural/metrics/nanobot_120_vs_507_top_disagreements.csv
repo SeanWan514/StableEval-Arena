@@ -1,0 +1,31 @@
+variant,case_id,true_label,original_120_pred,from_507_pred,original_p_depeg,from_507_p_depeg,abs_p_diff,original_maxdev_bps,from_507_maxdev_bps,abs_maxdev_diff_bps,original_direction,from_507_direction,original_confidence,from_507_confidence,comment
+raw,DAI_2023031323,stable,stress,watch,0.85,0.2,0.6499999999999999,1082.0,100.0,982.0,below_peg,below_peg,0.8,0.7,prediction label changed
+raw,USDC_2023031323,stable,watch,stress,0.3,0.85,0.55,50.0,978.0,928.0,below_peg,below_peg,0.7,0.8,prediction label changed
+raw,USDT_2023040323,stable,stable,watch,0.05,0.15,0.09999999999999999,10.0,50.0,40.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.85,0.7,prediction label changed
+raw,USDT_2023042423,stable,stable,watch,0.05,0.15,0.09999999999999999,10.0,50.0,40.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.85,0.7,prediction label changed
+raw,USDC_2023021323,stable,watch,stable,0.1,0.05,0.05,50.0,12.0,38.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+raw,DAI_2023021323,stable,watch,stable,0.15,0.05,0.09999999999999999,50.0,14.0,36.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+raw,DAI_2025100623,stress,stable,watch,0.05,0.15,0.09999999999999999,15.0,50.0,35.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.85,0.7,prediction label changed
+raw,USDC_2023030623,stress,watch,stable,0.2,0.05,0.15000000000000002,50.0,20.0,30.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+raw,USDT_2023052223,stable,watch,stable,0.15,0.05,0.09999999999999999,50.0,20.0,30.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+raw,USDT_2023060523,stable,watch,stable,0.15,0.05,0.09999999999999999,50.0,20.0,30.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+raw,DAI_2023030623,stress,watch,stable,0.1,0.05,0.05,40.0,20.0,20.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+raw,USDT_2023041023,stable,stable,watch,0.05,0.15,0.09999999999999999,10.0,25.0,15.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.85,0.7,prediction label changed
+raw,USDC_2023022723,stable,watch,stable,0.15,0.05,0.09999999999999999,25.0,12.0,13.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+raw,USDC_2023013023,stable,watch,stable,0.1,0.05,0.05,30.0,20.0,10.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+raw,DAI_2023062623,watch,watch,stable,0.1,0.05,0.05,30.0,20.0,10.0,below_peg,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+calibrated,USDC_2023031323,stable,watch,stress,0.3,0.85,0.55,50.0,978.0,928.0,below_peg,below_peg,0.7,0.8,prediction label changed
+calibrated,DAI_2023031323,stable,stress,stress,0.85,0.2,0.6499999999999999,1082.0,100.0,982.0,below_peg,below_peg,0.8,0.7,largest numeric output drift without label change
+calibrated,DAI_2026040623,watch,watch,stress,0.15,0.15,0.0,50.0,117.0,67.0,two_sided_or_no_meaningful,below_peg,0.7,0.7,prediction label changed
+calibrated,USDT_2023040323,stable,stable,watch,0.05,0.15,0.09999999999999999,10.0,50.0,40.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.85,0.7,prediction label changed
+calibrated,USDT_2023042423,stable,stable,watch,0.05,0.15,0.09999999999999999,10.0,50.0,40.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.85,0.7,prediction label changed
+calibrated,USDC_2023021323,stable,watch,stable,0.1,0.05,0.05,50.0,12.0,38.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+calibrated,DAI_2023021323,stable,watch,stable,0.15,0.05,0.09999999999999999,50.0,14.0,36.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+calibrated,DAI_2025100623,stress,stable,watch,0.05,0.15,0.09999999999999999,15.0,50.0,35.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.85,0.7,prediction label changed
+calibrated,USDC_2023030623,stress,watch,stable,0.2,0.05,0.15000000000000002,50.0,20.0,30.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+calibrated,DAI_2026042023,watch,watch,stable,0.2,0.1,0.1,50.0,20.0,30.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.7,prediction label changed
+calibrated,USDT_2023052223,stable,watch,stable,0.15,0.05,0.09999999999999999,50.0,20.0,30.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+calibrated,USDT_2023060523,stable,watch,stable,0.15,0.05,0.09999999999999999,50.0,20.0,30.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+calibrated,DAI_2023030623,stress,watch,stable,0.1,0.05,0.05,40.0,20.0,20.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed
+calibrated,USDT_2023041023,stable,stable,watch,0.05,0.15,0.09999999999999999,10.0,25.0,15.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.85,0.7,prediction label changed
+calibrated,USDC_2023022723,stable,watch,stable,0.15,0.05,0.09999999999999999,25.0,12.0,13.0,two_sided_or_no_meaningful,two_sided_or_no_meaningful,0.7,0.85,prediction label changed

@@ -1,0 +1,31 @@
+variant,case_id,true_label,original_120_pred,from_507_on_120_pred,original_p_depeg,from_507_p_depeg,original_maxdev,from_507_maxdev,comment
+raw,DAI_2023022723,stable,watch,stable,0.15,0.05,50.0,10.0,Prediction changed
+raw,DAI_2023041023,stable,watch,stable,0.15,0.05,50.0,12.0,Prediction changed
+raw,DAI_2023021323,stable,watch,stable,0.15,0.05,50.0,14.0,Prediction changed
+raw,USDT_2026011923,watch,watch,stable,0.15,0.05,50.0,15.0,Prediction changed
+raw,USDT_2023060523,stable,watch,stable,0.15,0.05,50.0,30.0,Prediction changed
+raw,USDC_2023013023,stable,watch,stable,0.1,0.05,50.0,10.0,Prediction changed
+raw,USDC_2023021323,stable,watch,stable,0.1,0.05,50.0,12.0,Prediction changed
+raw,USDC_2023050123,watch,stable,watch,0.05,0.1,18.0,50.0,Prediction changed
+raw,USDC_2024070123,stable,watch,stable,0.1,0.05,50.0,20.0,Prediction changed
+raw,USDC_2023022023,stable,watch,stable,0.1,0.05,50.0,30.0,Prediction changed
+raw,DAI_2023091823,stable,watch,stable,0.1,0.05,20.0,20.0,Prediction changed
+raw,USDT_2023050123,stress,watch,watch,0.15,0.1,50.0,20.0,Large numeric disagreement
+raw,DAI_2024090223,watch,watch,watch,0.15,0.1,50.0,38.0,Large numeric disagreement
+raw,DAI_2023030623,stress,watch,watch,0.1,0.15,40.0,40.0,Large numeric disagreement
+raw,USDC_2023040323,stable,watch,watch,0.1,0.15,50.0,50.0,Large numeric disagreement
+calibrated,DAI_2023022723,stable,watch,stable,0.15,0.05,50.0,10.0,Prediction changed
+calibrated,DAI_2023041023,stable,watch,stable,0.15,0.05,50.0,12.0,Prediction changed
+calibrated,DAI_2023021323,stable,watch,stable,0.15,0.05,50.0,14.0,Prediction changed
+calibrated,USDT_2026011923,watch,watch,stable,0.15,0.05,50.0,15.0,Prediction changed
+calibrated,USDT_2023060523,stable,watch,stable,0.15,0.05,50.0,30.0,Prediction changed
+calibrated,USDC_2023013023,stable,watch,stable,0.1,0.05,50.0,10.0,Prediction changed
+calibrated,USDC_2023021323,stable,watch,stable,0.1,0.05,50.0,12.0,Prediction changed
+calibrated,USDC_2023050123,watch,stable,watch,0.05,0.1,18.0,50.0,Prediction changed
+calibrated,USDC_2024070123,stable,watch,stable,0.1,0.05,50.0,20.0,Prediction changed
+calibrated,USDC_2023022023,stable,watch,stable,0.1,0.05,50.0,30.0,Prediction changed
+calibrated,USDT_2023050123,stress,watch,stable,0.15,0.1,50.0,20.0,Prediction changed
+calibrated,DAI_2024090223,watch,watch,stable,0.15,0.1,50.0,38.0,Prediction changed
+calibrated,DAI_2023091823,stable,stable,stable,0.1,0.05,20.0,20.0,Large numeric disagreement
+calibrated,DAI_2023030623,stress,watch,watch,0.1,0.15,40.0,40.0,Large numeric disagreement
+calibrated,USDC_2023040323,stable,watch,watch,0.1,0.15,50.0,50.0,Large numeric disagreement

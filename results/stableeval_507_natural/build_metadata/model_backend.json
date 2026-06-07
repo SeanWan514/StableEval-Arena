@@ -1,0 +1,4 @@
+{
+  "selected_model_id": "qwen/qwen-2.5-72b-instruct",
+  "selection_reason": "Frozen MVP full-distribution backend inherited from the 120-case validation: qwen/qwen-2.5-72b-instruct via OpenRouter at temperature 0."
+}

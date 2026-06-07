@@ -1,0 +1,41 @@
+{
+  "created_at_local": "2026-06-04",
+  "agent": "EvoAgentX",
+  "canonical_repository_agent_identifier": "evoagentx",
+  "backend_model": "qwen/qwen-2.5-72b-instruct",
+  "provider": "OpenRouter",
+  "temperature": 0,
+  "prompt_packet_file": "results/scaling_507/prompt_packets/natural_distribution_507_prompt_packets.jsonl",
+  "case_list_file": "results/scaling_507/case_ids/natural_distribution_507_case_list.csv",
+  "system_prompt": "prompts/risk_sensitive_agent_prompt.md",
+  "output_schema": "stable/watch/stress label, depeg probability, maximum absolute peg-deviation estimate, direction, confidence, rationale/evidence fields",
+  "calibration_rule": "risk_sensitive_v1_posthoc_frozen",
+  "evaluator_script": "scripts/06_evaluate_predictions.py metric definitions; 507 agent metrics recomputed from saved predictions and labels where direct agent-only evaluator invocation touches the simple-ML branch",
+  "runner_script": "scripts/scaling_507/run_evoagentx_qwen_507_resume_safe.py",
+  "baseline_table_used": "results/scaling_507/tables/baseline_results_507.csv",
+  "pre_evoagentx_leaderboard_used": "results/scaling_507/tables/scaling_507_progress_leaderboard_v3_verified_with_hermes.csv",
+  "nanobot_comparison_files": [
+    "results/scaling_507/tables/nanobot_qwen_507_results.csv",
+    "results/scaling_507/raw_outputs/nanobot_qwen_507_complete_calibrated/nanobot_predictions.jsonl",
+    "results/scaling_507/reports/NANOBOT_120_VS_507_ALIGNMENT_AUDIT.md"
+  ],
+  "langgraph_comparison_files": [
+    "results/scaling_507/tables/langgraph_qwen_507/langgraph_507_results.csv",
+    "results/scaling_507/raw_outputs/langgraph_qwen_507_complete_calibrated/langgraph_predictions.jsonl",
+    "results/scaling_507/reports/langgraph_qwen_507/LANGGRAPH_120_VS_507_ALIGNMENT_AUDIT.md"
+  ],
+  "hermes_ai_comparison_files": [
+    "results/scaling_507/tables/hermes_ai_qwen_507/hermes_ai_507_results.csv",
+    "results/scaling_507/raw_outputs/hermes_ai_qwen_507_complete_calibrated/hermes_ai_predictions.jsonl",
+    "results/scaling_507/reports/hermes_ai_qwen_507/HERMES_AI_507_CASE_VALIDITY_AND_ALIGNMENT_VERIFICATION_v3.md"
+  ],
+  "only_intended_experimental_difference_from_hermes_ai_507": "agent = EvoAgentX",
+  "do_not_modify": [
+    "results/validation_120/",
+    "results/scaling_507/raw_outputs/nanobot_qwen_507_complete/",
+    "results/scaling_507/raw_outputs/langgraph_qwen_507_complete/",
+    "results/scaling_507/raw_outputs/hermes_ai_qwen_507_complete/",
+    "results/scaling_507/tables/scaling_507_progress_leaderboard_v2_verified.csv",
+    "results/scaling_507/tables/scaling_507_progress_leaderboard_v3_verified_with_hermes.csv"
+  ]
+}

@@ -1,0 +1,9 @@
+dataset,system,rows,unique_case_ids,missing_from_predictions,extra_prediction_ids,duplicate_case_rows,label_mismatches_vs_case_list,sustained_depeg_mismatches_vs_case_list,maxdev_mismatches_vs_case_list,status
+baselines,always_stable,507,507,0,0,0,0,0,0,PASS
+baselines,historical_persistence,507,507,0,0,0,0,0,0,PASS
+baselines,simple_ml_softmax_logistic,507,507,0,0,0,0,0,0,PASS
+baselines,threshold_rule,507,507,0,0,0,0,0,0,PASS
+nanobot_qwen_507_raw,nanobot_qwen_507_raw,507,507,0,0,0,0,0,0,PASS
+nanobot_qwen_507_calibrated,nanobot_qwen_507_calibrated,507,507,0,0,0,0,0,0,PASS
+langgraph_qwen_507_raw,langgraph_qwen_507_raw,507,507,0,0,0,0,0,0,PASS
+langgraph_qwen_507_calibrated,langgraph_qwen_507_calibrated,507,507,0,0,0,0,0,0,PASS

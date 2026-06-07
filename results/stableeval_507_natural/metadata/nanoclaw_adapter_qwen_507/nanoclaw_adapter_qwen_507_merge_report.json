@@ -1,0 +1,23 @@
+{
+  "calibrated_file": "results/scaling_507/raw_outputs/nanoclaw_adapter_qwen_507_complete_calibrated/nanoclaw_adapter_predictions.jsonl",
+  "calibrated_file_sha256": "41a53c376d64391107f93471de8e01fa2f51815ec7489c8c2a346bb521eec5db",
+  "compat_file": "results/scaling_507/raw_outputs/nanoclaw_adapter_qwen_507_complete/nanoclaw_adapter_predictions.jsonl",
+  "compat_file_sha256": "b1af26fd6d73136e9b9ca94372d2024f9106f46231d67206be268b19dcda65dd",
+  "continuation_records": 502,
+  "corrupt_line_check": {
+    "continuation": [],
+    "dry_run": []
+  },
+  "created_at_utc": "2026-06-05T21:41:50.661081+00:00",
+  "dry_run_records": 5,
+  "duplicate_case_ids": [],
+  "final_file": "results/scaling_507/raw_outputs/nanoclaw_adapter_qwen_507_complete/nanoclaw_adapter_predictions_507_complete.jsonl",
+  "final_file_sha256": "b1af26fd6d73136e9b9ca94372d2024f9106f46231d67206be268b19dcda65dd",
+  "missing_case_ids": [],
+  "source_files": [
+    "results/scaling_507/raw_outputs/nanoclaw_adapter_qwen_507_dry_run/nanoclaw_adapter_predictions_dry_run.jsonl",
+    "results/scaling_507/raw_outputs/nanoclaw_adapter_qwen_507_continuation/nanoclaw_adapter_predictions_continuation.jsonl"
+  ],
+  "total_merged_records": 507,
+  "unique_case_ids": 507
+}

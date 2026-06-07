@@ -1,0 +1,63 @@
+variant,metric,original_120,from_507_on_120,delta,relative_delta,concern_level,possible_explanation,agent
+raw,Accuracy,0.4,0.4333333333333333,0.0333333333333333,0.0833333333333333,,Same-case rerun variability despite fixed prompt/backend; compare label agreement and transition counts.,nanobot
+raw,Macro-F1,0.2660368445914029,0.3008811519449817,0.0348443073535787,0.130975494793193,Low,Same-case rerun variability despite fixed prompt/backend; compare label agreement and transition counts.,nanobot
+raw,Balanced accuracy,0.3432098765432099,0.3679012345679012,0.0246913580246913,0.0719424460431653,,Same-case rerun variability despite fixed prompt/backend; compare label agreement and transition counts.,nanobot
+raw,Stable precision,0.5263157894736842,0.6086956521739131,0.0823798627002289,0.1565217391304349,,Rerun/model-output variability under same protocol.,nanobot
+raw,Stable recall,0.1851851851851851,0.2592592592592592,0.074074074074074,0.4,,Rerun/model-output variability under same protocol.,nanobot
+raw,Stable F1,0.273972602739726,0.3636363636363636,0.0896637608966376,0.3272727272727274,,Rerun/model-output variability under same protocol.,nanobot
+raw,Watch precision,0.38,0.3958333333333333,0.0158333333333333,0.0416666666666666,,Rerun/model-output variability under same protocol.,nanobot
+raw,Watch recall,0.8444444444444444,0.8444444444444444,0.0,0.0,,No measurable difference.,nanobot
+raw,Watch F1,0.5241379310344828,0.5390070921985816,0.0148691611640987,0.028368794326241,,Rerun/model-output variability under same protocol.,nanobot
+raw,Stress precision,0.0,0.0,0.0,,,No measurable difference.,nanobot
+raw,Stress recall,0.0,0.0,0.0,,,No measurable difference.,nanobot
+raw,Stress F1,0.0,0.0,0.0,,,No measurable difference.,nanobot
+raw,Missed-depeg rate,1.0,1.0,0.0,0.0,,No measurable difference.,nanobot
+raw,False-alarm rate,0.0085470085470085,0.0085470085470085,0.0,0.0,,No measurable difference.,nanobot
+raw,Brier score,0.0469166666666666,0.0464166666666666,-0.0005,-0.0106571936056838,,Numeric-output rerun variability; calibration does not alter probability/max-deviation fields.,nanobot
+raw,MaxDev MAE,56.61666666666688,56.55000000000025,-0.0666666666666273,-0.0011775095672645,Low,Numeric-output rerun variability; calibration does not alter probability/max-deviation fields.,nanobot
+raw,MaxDev RMSE,167.1716184045605,165.0894706919049,-2.0821477126555976,-0.0124551507757539,,Numeric-output rerun variability; calibration does not alter probability/max-deviation fields.,nanobot
+raw,Valid JSON rate,1.0,1.0,0.0,0.0,,No measurable difference.,nanobot
+raw,Failure rate,0.0,0.0,0.0,,,No measurable difference.,nanobot
+raw,Cost per case,0.0028784521666666,0.0029024786666666,2.4026500000000513e-05,0.0083470207628372,,Rerun/model-output variability under same protocol.,nanobot
+calibrated,Accuracy,0.4416666666666666,0.4583333333333333,0.0166666666666666,0.0377358490566037,,Same-case rerun variability despite fixed prompt/backend; compare label agreement and transition counts.,nanobot
+calibrated,Macro-F1,0.3505430242272347,0.3684329532282748,0.01788992900104,0.0510349023218421,,Same-case rerun variability despite fixed prompt/backend; compare label agreement and transition counts.,nanobot
+calibrated,Balanced accuracy,0.3934744268077601,0.4045855379188712,0.011111111111111,0.0282384580905422,,Same-case rerun variability despite fixed prompt/backend; compare label agreement and transition counts.,nanobot
+calibrated,Stable precision,0.5909090909090909,0.5925925925925926,0.0016835016835016,0.0028490028490027,,Rerun/model-output variability under same protocol.,nanobot
+calibrated,Stable recall,0.2407407407407407,0.2962962962962963,0.0555555555555555,0.2307692307692307,,Rerun/model-output variability under same protocol.,nanobot
+calibrated,Stable F1,0.3421052631578947,0.3950617283950617,0.0529564652371669,0.154795821462488,,Rerun/model-output variability under same protocol.,nanobot
+calibrated,Watch precision,0.4,0.4204545454545454,0.0204545454545454,0.0511363636363636,,Rerun/model-output variability under same protocol.,nanobot
+calibrated,Watch recall,0.8444444444444444,0.8222222222222222,-0.0222222222222222,-0.0263157894736842,,Rerun/model-output variability under same protocol.,nanobot
+calibrated,Watch F1,0.5428571428571428,0.556390977443609,0.0135338345864661,0.0249307479224376,,Rerun/model-output variability under same protocol.,nanobot
+calibrated,Stress precision,0.6666666666666666,0.4,-0.2666666666666666,-0.3999999999999999,,Rerun/model-output variability under same protocol.,nanobot
+calibrated,Stress recall,0.0952380952380952,0.0952380952380952,0.0,0.0,,No measurable difference.,nanobot
+calibrated,Stress F1,0.1666666666666666,0.1538461538461538,-0.0128205128205128,-0.0769230769230768,,Rerun/model-output variability under same protocol.,nanobot
+calibrated,Missed-depeg rate,1.0,1.0,0.0,0.0,,No measurable difference.,nanobot
+calibrated,False-alarm rate,0.0085470085470085,0.0085470085470085,0.0,0.0,,No measurable difference.,nanobot
+calibrated,Brier score,0.0469166666666666,0.0464166666666666,-0.0005,-0.0106571936056838,,Numeric-output rerun variability; calibration does not alter probability/max-deviation fields.,nanobot
+calibrated,MaxDev MAE,56.61666666666688,56.55000000000025,-0.0666666666666273,-0.0011775095672645,Low,Numeric-output rerun variability; calibration does not alter probability/max-deviation fields.,nanobot
+calibrated,MaxDev RMSE,167.1716184045605,165.0894706919049,-2.0821477126555976,-0.0124551507757539,,Numeric-output rerun variability; calibration does not alter probability/max-deviation fields.,nanobot
+calibrated,Valid JSON rate,1.0,1.0,0.0,0.0,,No measurable difference.,nanobot
+calibrated,Failure rate,0.0,0.0,0.0,,,No measurable difference.,nanobot
+calibrated,Cost per case,0.0028784521666666,0.0029024786666666,2.4026500000000513e-05,0.0083470207628372,,Rerun/model-output variability under same protocol.,nanobot
+raw,Accuracy,0.4333333333333333,0.4833333333333333,0.0499999999999999,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+raw,Macro-F1,0.3008811519449817,0.3496972966492837,0.048816144704302,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+raw,Balanced accuracy,0.3679012345679012,0.4049382716049383,0.037037037037037,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+raw,Stable recall,0.2592592592592592,0.3703703703703703,0.1111111111111111,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+raw,Watch recall,0.8444444444444444,0.8444444444444444,0.0,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+raw,Stress recall,0.0,0.0,0.0,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+raw,Missed-depeg rate,1.0,1.0,0.0,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+raw,False-alarm rate,0.0085470085470085,0.017094017094017,0.0085470085470085,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+raw,Brier score,0.0463333333333333,0.0481874999999999,0.0018541666666666,,,Probability-output rerun variability; calibration does not alter probabilities.,langgraph
+raw,MaxDev MAE,58.6833333333335,64.27500000000019,5.59166666666669,,,Numeric-output rerun variability; calibration does not alter max-deviation values.,langgraph
+raw,MaxDev RMSE,168.62710339681456,199.2745802487947,30.647476851980173,,Low,Numeric-output rerun variability; calibration does not alter max-deviation values.,langgraph
+calibrated,Accuracy,0.4416666666666666,0.5,0.0583333333333333,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,Macro-F1,0.3372427983539094,0.3880640031802821,0.0508212048263727,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,Balanced accuracy,0.381305114638448,0.4257495590828924,0.0444444444444444,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,Stable recall,0.2962962962962963,0.4074074074074074,0.1111111111111111,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,Watch recall,0.8,0.8222222222222222,0.0222222222222221,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,Stress recall,0.0476190476190476,0.0476190476190476,0.0,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,Missed-depeg rate,1.0,1.0,0.0,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,False-alarm rate,0.0085470085470085,0.017094017094017,0.0085470085470085,,,Same-case rerun variability; protocol and evaluator are unchanged.,langgraph
+calibrated,Brier score,0.0463333333333333,0.0481874999999999,0.0018541666666666,,,Probability-output rerun variability; calibration does not alter probabilities.,langgraph
+calibrated,MaxDev MAE,58.6833333333335,64.27500000000019,5.59166666666669,,,Numeric-output rerun variability; calibration does not alter max-deviation values.,langgraph
+calibrated,MaxDev RMSE,168.62710339681456,199.2745802487947,30.647476851980173,,Low,Numeric-output rerun variability; calibration does not alter max-deviation values.,langgraph

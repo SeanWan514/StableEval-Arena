@@ -1,0 +1,44 @@
+{
+  "created_at_utc": "2026-06-04T11:15:00Z",
+  "api_calls_made": 0,
+  "destructive_file_operations": 0,
+  "case_validity": {
+    "total_cases_checked": 507,
+    "valid_cases": 507,
+    "invalid_cases": 0,
+    "missing_cases": 0,
+    "duplicates": 0,
+    "corrupt_lines": 0,
+    "schema_issues": 0,
+    "backend_issues": 0,
+    "fallback_model_detections": 0,
+    "metric_inclusion_issues": 0
+  },
+  "prompt_leakage_scan": {
+    "prompt_packet_count": 507,
+    "unique_prompt_case_ids": 507,
+    "case_list_count": 507,
+    "prompt_ids_match_case_list": true,
+    "duplicate_prompt_case_ids": 0,
+    "missing_prompt_case_ids": 0,
+    "extra_prompt_case_ids": 0,
+    "suspicious_leakage_field_count": 0,
+    "allowed_future_context": [
+      "forecast_horizon.start",
+      "forecast_horizon.end",
+      "forecast_horizon.hours"
+    ],
+    "verdict": "PASS"
+  },
+  "merge_integrity_pass": true,
+  "metric_recomputation_all_match": true,
+  "metric_recomputation_max_abs_delta": 0.000000000000014210854715202004,
+  "alignment_verdict": "PASS",
+  "stress_case_summary": {
+    "stress_cases": 21,
+    "all_three_miss_stress": 19,
+    "at_least_one_agent_correct_stress": 2
+  },
+  "canonical_case_audit": "results/scaling_507/metrics/hermes_ai_qwen_507/hermes_ai_507_case_by_case_validity_audit_v2.csv",
+  "canonical_report": "results/scaling_507/reports/hermes_ai_qwen_507/HERMES_AI_507_CASE_VALIDITY_AND_ALIGNMENT_VERIFICATION_v3.md"
+}

@@ -1,0 +1,23 @@
+{
+  "calibrated_file": "results/scaling_507/raw_outputs/evoagentx_qwen_507_complete_calibrated/evoagentx_predictions.jsonl",
+  "calibrated_file_sha256": "13c30af4437c52646567ada6a3299bb5ccbb9b356d11c7ac4f2350c1b7c51dfc",
+  "compat_file": "results/scaling_507/raw_outputs/evoagentx_qwen_507_complete/evoagentx_predictions.jsonl",
+  "compat_file_sha256": "d7447059f33896b052b866343af0ed297b649a7f800c8cb718f0018360220be0",
+  "continuation_records": 502,
+  "corrupt_line_check": {
+    "continuation": [],
+    "dry_run": []
+  },
+  "created_at_utc": "2026-06-04T17:05:10.722200+00:00",
+  "dry_run_records": 5,
+  "duplicate_case_ids": [],
+  "final_file": "results/scaling_507/raw_outputs/evoagentx_qwen_507_complete/evoagentx_predictions_507_complete.jsonl",
+  "final_file_sha256": "d7447059f33896b052b866343af0ed297b649a7f800c8cb718f0018360220be0",
+  "missing_case_ids": [],
+  "source_files": [
+    "results/scaling_507/raw_outputs/evoagentx_qwen_507_dry_run/evoagentx_predictions_dry_run.jsonl",
+    "results/scaling_507/raw_outputs/evoagentx_qwen_507_continuation/evoagentx_predictions_continuation.jsonl"
+  ],
+  "total_merged_records": 507,
+  "unique_case_ids": 507
+}

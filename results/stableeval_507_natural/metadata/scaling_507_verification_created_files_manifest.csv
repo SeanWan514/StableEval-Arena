@@ -1,0 +1,14 @@
+path,exists,size_bytes,sha256,recorded_at_utc
+results/scaling_507/metrics/verification/scaling_507_artifact_inventory.csv,True,7264,7c624cebe23ae9b2bafc6dba3a652626b5dea5547779c38e6f50ca157d2d2467,2026-06-04T05:07:58.817914+00:00
+results/scaling_507/metrics/verification/scaling_507_case_label_consistency.csv,True,733,9e20bd4ca085cdd6e5c34a26f25f81b6f3d3d43d86ea304fb5d15ebcb631a122,2026-06-04T05:07:58.817914+00:00
+results/scaling_507/metrics/verification/scaling_507_calibration_consistency.csv,True,399,e1781312da9e712e6bdb34470964ed982bf1d7dda73b1bc7d9543c1b72510130,2026-06-04T05:07:58.817914+00:00
+results/scaling_507/metrics/verification/scaling_507_metric_recomputation.csv,True,4987,7bb6f5ba1683f2f61e69a6f997f5d7ca9834b28b2dbee75498f12325e14ec02a,2026-06-04T05:07:58.817914+00:00
+results/scaling_507/metrics/verification/scaling_507_metric_discrepancies.csv,True,25843,50d1f2bf8799014d8424559b456f24bd94a36cce75be5fb5758bdbb4a9f476b2,2026-06-04T05:07:58.817914+00:00
+results/scaling_507/metrics/verification/scaling_507_table_version_checks.csv,True,396,28a7977cd403756872bb93bd6aca839dedc8b569139b020b9bd74f0ca8c607ed,2026-06-04T05:07:58.817914+00:00
+results/scaling_507/metrics/verification/scaling_507_agent_alignment_summary.csv,True,8680,23bfe0ade643d1b4b8ef002757440a1ec691959955e7fb94996b70f9efcf9d8f,2026-06-04T05:07:58.817914+00:00
+results/scaling_507/metrics/verification/scaling_507_agent_alignment_metric_deltas.csv,True,9242,2b77af6de2a0a0f0e1438f47a95f72fd5ad13b549cf81967bfef7ba6e5ea8b66,2026-06-04T05:07:58.817914+00:00
+results/scaling_507/metrics/verification/scaling_507_verification_summary.json,True,803,081e09e60f339dc614a66bc3c51a45d2dce46f47b809c7bf09dbb1cf17fdefc2,2026-06-04T05:07:58.817914+00:00
+results/scaling_507/tables/scaling_507_progress_leaderboard_v2_verified.csv,True,3644,b8d173130699bcd63de7b89aa7f648ac9bdc002a7f9293545a647ff66a506d8c,2026-06-04T05:07:58.817914+00:00
+results/scaling_507/SCALING_507_INDEX.md,True,3609,421ad4c5ce00781e2979dbc3a9f979f2af4cc7dfae8f83e1f0a66c7dc319481d,2026-06-04T05:07:58.817914+00:00
+results/scaling_507/reports/SCALING_507_PAPER_USE_RECOMMENDATION.md,True,1467,622a83837da632acf66bf1add78101dfc9facce82a7cabfa73082f923d866265,2026-06-04T05:07:58.817914+00:00
+results/scaling_507/reports/SCALING_507_METRIC_CONSISTENCY_AND_ALIGNMENT_CHECK.md,True,6843,50b4da0075d2cba5febfa37699d61cd02c108101f6292a6ccbe577ec69c3e168,2026-06-04T05:07:58.817914+00:00

@@ -1,0 +1,35 @@
+{
+  "agent": "OpenClaw",
+  "backend": "qwen/qwen-2.5-72b-instruct",
+  "baseline_table_used": "results/scaling_507/tables/scaling_507_progress_leaderboard_v4_verified_with_evoagentx.csv",
+  "calibration_rule": "risk_sensitive_v1_posthoc_frozen",
+  "canonical_agent_identifier": "openclaw",
+  "case_list_file": "results/scaling_507/case_ids/natural_distribution_507_case_list.csv",
+  "comparison_files": {
+    "evoagentx": "results/scaling_507/raw_outputs/evoagentx_qwen_507_complete_calibrated/evoagentx_predictions.jsonl",
+    "hermes_ai": "results/scaling_507/raw_outputs/hermes_ai_qwen_507_complete_calibrated/hermes_ai_predictions.jsonl",
+    "langgraph": "results/scaling_507/raw_outputs/langgraph_qwen_507_complete_calibrated/langgraph_predictions.jsonl",
+    "nanobot": "results/scaling_507/raw_outputs/nanobot_qwen_507_complete_calibrated/nanobot_predictions.jsonl"
+  },
+  "created_at_utc": "2026-06-05T10:43:39.830958+00:00",
+  "evaluator_metric_formulas": "same local formulas used for prior 507 scaling finalizers",
+  "execution_mode": "StableEval adapter",
+  "expected_execution_mode_field": "stableeval_adapter",
+  "native_cmdop_claim": false,
+  "native_cmdop_execution": "not verified",
+  "native_feasibility_evidence": "OpenClaw.local() failed with AgentNotRunningError; frozen 120 metadata native_runtime_verified=False",
+  "output_schema": [
+    "case_id",
+    "price_stability_next_7d",
+    "p_depeg_next_7d",
+    "predicted_max_abs_deviation_bps",
+    "predicted_direction",
+    "confidence",
+    "rationale",
+    "evidence_used"
+  ],
+  "prompt_packet_file": "results/scaling_507/prompt_packets/natural_distribution_507_prompt_packets.jsonl",
+  "provider": "OpenRouter",
+  "statement": "Only intended experimental difference from prior 507 runs is agent = OpenClaw under StableEval adapter execution. This is not native CMDOP execution.",
+  "temperature": 0
+}

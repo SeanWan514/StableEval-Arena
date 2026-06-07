@@ -1,0 +1,4 @@
+,stable,watch,stress,invalid
+stable,10,42,2,0
+watch,4,41,0,0
+stress,0,21,0,0

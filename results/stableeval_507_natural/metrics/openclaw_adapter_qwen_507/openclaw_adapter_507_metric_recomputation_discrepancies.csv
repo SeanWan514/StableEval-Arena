@@ -1,0 +1,27 @@
+variant,metric,reported_value,recomputed_value,delta,concern_level,likely_reason
+raw,accuracy,0.32741617357001973,0.32741617357001973,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+raw,macro_f1,0.20985302350454135,0.20985302350454135,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+raw,balanced_accuracy,0.38488284202569917,0.38488284202569917,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+raw,stable_recall,0.28798185941043086,0.28798185941043086,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+raw,watch_recall,0.8666666666666667,0.8666666666666667,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+raw,stress_recall,0.0,0.0,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+raw,missed_depeg_rate,1.0,1.0,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+raw,false_alarm_rate,0.003968253968253968,0.003968253968253968,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+raw,brier_score,0.022850098619329382,0.022850098619329382,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+raw,maxdev_mae_bps,34.65483234714077,34.65483234714077,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+raw,maxdev_rmse_bps,100.16341677065351,100.16341677065351,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+raw,valid_json_rate,1.0,1.0,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+raw,failure_rate,0.0,0.0,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,accuracy,0.3530571992110454,0.3530571992110454,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,macro_f1,0.24846066779852857,0.24846066779852857,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,balanced_accuracy,0.40317460317460313,0.40317460317460313,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,stable_recall,0.31746031746031744,0.31746031746031744,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,watch_recall,0.8444444444444444,0.8444444444444444,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,stress_recall,0.047619047619047616,0.047619047619047616,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,missed_depeg_rate,1.0,1.0,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,false_alarm_rate,0.003968253968253968,0.003968253968253968,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,brier_score,0.022850098619329382,0.022850098619329382,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,maxdev_mae_bps,34.65483234714077,34.65483234714077,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,maxdev_rmse_bps,100.16341677065351,100.16341677065351,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,valid_json_rate,1.0,1.0,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.
+calibrated,failure_rate,0.0,0.0,0.0,None,Metric table generated directly from saved predictions and labels in this finalizer.

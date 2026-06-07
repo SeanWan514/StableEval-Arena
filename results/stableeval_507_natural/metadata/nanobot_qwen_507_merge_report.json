@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-06-03T15:20:53.128022+00:00",
+  "source_files": [
+    "results/scaling_507/raw_outputs/nanobot_qwen_507_raw/nanobot_predictions.jsonl",
+    "results/scaling_507/raw_outputs/nanobot_qwen_507_continuation/nanobot_predictions_continuation.jsonl"
+  ],
+  "partial_records": 32,
+  "continuation_records": 475,
+  "total_merged_records": 507,
+  "unique_case_ids": 507,
+  "duplicate_case_ids": [],
+  "missing_case_ids": [],
+  "extra_case_ids": [],
+  "partial_corrupt_lines": [],
+  "continuation_corrupt_lines": [],
+  "model_backends": [
+    "openrouter/qwen/qwen-2.5-72b-instruct"
+  ],
+  "prediction_models": [
+    "qwen/qwen-2.5-72b-instruct"
+  ],
+  "complete_file": "results/scaling_507/raw_outputs/nanobot_qwen_507_complete/nanobot_predictions_507_complete.jsonl",
+  "evaluator_file": "results/scaling_507/raw_outputs/nanobot_qwen_507_complete/nanobot_predictions.jsonl",
+  "complete_sha256": "da18af013f7333a8b051ad85930c23a595a7fb086e249b471b34fb7ee26f9f11",
+  "evaluator_sha256": "da18af013f7333a8b051ad85930c23a595a7fb086e249b471b34fb7ee26f9f11"
+}

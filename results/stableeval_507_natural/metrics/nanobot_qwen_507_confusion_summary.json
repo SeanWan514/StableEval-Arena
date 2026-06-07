@@ -1,0 +1,46 @@
+{
+  "nanobot_qwen_507_raw": {
+    "stable": {
+      "stable": 142,
+      "watch": 7,
+      "stress": 2
+    },
+    "watch": {
+      "stable": 298,
+      "watch": 38,
+      "stress": 19
+    },
+    "stress": {
+      "stable": 1,
+      "watch": 0,
+      "stress": 0
+    },
+    "invalid": {
+      "stable": 0,
+      "watch": 0,
+      "stress": 0
+    }
+  },
+  "nanobot_qwen_507_calibrated": {
+    "stable": {
+      "stable": 161,
+      "watch": 7,
+      "stress": 4
+    },
+    "watch": {
+      "stable": 275,
+      "watch": 37,
+      "stress": 15
+    },
+    "stress": {
+      "stable": 5,
+      "watch": 1,
+      "stress": 2
+    },
+    "invalid": {
+      "stable": 0,
+      "watch": 0,
+      "stress": 0
+    }
+  }
+}

@@ -1,0 +1,23 @@
+variant,metric,original_120,from_507_on_120,delta,concern_level,interpretation
+raw,accuracy,0.425,0.44166666666666665,0.016666666666666663,None,No concerning deterioration.
+raw,macro_f1,0.28148440584287404,0.3075430359937403,0.026058630150866235,None,No concerning deterioration.
+raw,balanced_accuracy,0.3654320987654321,0.37530864197530867,0.009876543209876576,None,No concerning deterioration.
+raw,stable_recall,0.18518518518518517,0.25925925925925924,0.07407407407407407,None,No concerning deterioration.
+raw,watch_recall,0.9111111111111111,0.8666666666666667,-0.0444444444444444,None,No concerning deterioration.
+raw,stress_recall,0.0,0.0,0.0,None,No concerning deterioration.
+raw,missed_depeg_rate,1.0,1.0,0.0,None,No concerning deterioration.
+raw,false_alarm_rate,0.017094017094017096,0.017094017094017096,0.0,None,No concerning deterioration.
+raw,brier_score,0.04745833333333332,0.04581249999999999,-0.0016458333333333255,None,No concerning deterioration.
+raw,maxdev_mae_bps,57.858333333333526,65.29166666666686,7.43333333333333,None,No concerning deterioration.
+raw,maxdev_rmse_bps,174.9538272421231,198.36781913069132,23.413991888568205,None,No concerning deterioration.
+calibrated,accuracy,0.425,0.4583333333333333,0.033333333333333326,None,No concerning deterioration.
+calibrated,macro_f1,0.3213489409141584,0.36972697939935467,0.048378038485196284,None,No concerning deterioration.
+calibrated,balanced_accuracy,0.36895943562610234,0.4045855379188712,0.03562610229276886,None,No concerning deterioration.
+calibrated,stable_recall,0.25925925925925924,0.2962962962962963,0.037037037037037035,None,No concerning deterioration.
+calibrated,watch_recall,0.8,0.8222222222222222,0.022222222222222143,None,No concerning deterioration.
+calibrated,stress_recall,0.047619047619047616,0.09523809523809523,0.047619047619047616,None,No concerning deterioration.
+calibrated,missed_depeg_rate,1.0,1.0,0.0,None,No concerning deterioration.
+calibrated,false_alarm_rate,0.017094017094017096,0.017094017094017096,0.0,None,No concerning deterioration.
+calibrated,brier_score,0.04745833333333332,0.04581249999999999,-0.0016458333333333255,None,No concerning deterioration.
+calibrated,maxdev_mae_bps,57.858333333333526,65.29166666666686,7.43333333333333,None,No concerning deterioration.
+calibrated,maxdev_rmse_bps,174.9538272421231,198.36781913069132,23.413991888568205,None,No concerning deterioration.

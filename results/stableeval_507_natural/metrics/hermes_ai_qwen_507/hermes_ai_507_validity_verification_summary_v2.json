@@ -1,0 +1,24 @@
+{
+  "alignment_verdict": "PARTIAL PASS",
+  "api_calls_made": 0,
+  "case_validity": {
+    "backend_issues": 0,
+    "corrupt_lines": 0,
+    "duplicates": 0,
+    "invalid_cases": 0,
+    "metric_inclusion_issues": 0,
+    "missing_cases": 0,
+    "schema_issues": 0,
+    "total_cases_checked": 507,
+    "valid_cases": 507
+  },
+  "created_at_utc": "2026-06-04T11:01:55.757102+00:00",
+  "destructive_file_operations": 0,
+  "merge_integrity_pass": true,
+  "metric_recomputation_all_match": false,
+  "stress_case_summary": {
+    "all_three_miss_stress": 19,
+    "at_least_one_agent_correct_stress": 2,
+    "stress_cases": 21
+  }
+}

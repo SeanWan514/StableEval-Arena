@@ -1,0 +1,30 @@
+{
+  "agent": "LangGraph",
+  "backend_model": "qwen/qwen-2.5-72b-instruct",
+  "provider": "OpenRouter",
+  "temperature": 0,
+  "max_tokens": 1600,
+  "case_list_file": "results/scaling_507/case_ids/natural_distribution_507_case_list.csv",
+  "prompt_packet_file": "results/scaling_507/prompt_packets/natural_distribution_507_prompt_packets.jsonl",
+  "system_prompt": "prompts/risk_sensitive_agent_prompt.md",
+  "output_schema": [
+    "case_id",
+    "platform",
+    "model_backend",
+    "execution_mode",
+    "price_stability_next_7d",
+    "p_depeg_next_7d",
+    "predicted_max_abs_deviation_bps",
+    "predicted_direction",
+    "confidence",
+    "rationale",
+    "evidence_used"
+  ],
+  "calibration_rule": "results/validation_120/calibration_rule.md and results/scaling_507/metadata/calibration_rule.md (same frozen rule)",
+  "evaluator_script": "scripts/06_evaluate_predictions.py",
+  "baseline_table": "results/scaling_507/tables/scaling_507_natural_distribution_leaderboard.csv",
+  "runner_script": "scripts/scaling_507/run_langgraph_qwen_507_resume_safe.py",
+  "python_bin": "../envs/langgraph-py312/bin/python",
+  "created_at_utc": "2026-06-03T18:41:14.548902+00:00",
+  "protocol_identity_statement": "Only intended experimental difference from Nanobot 507 is agent = LangGraph."
+}

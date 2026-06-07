@@ -1,0 +1,21 @@
+comparison,system,system_type,macro_f1_delta,balanced_accuracy_delta,stress_recall_delta,missed_depeg_delta,false_alarm_delta,brier_delta
+evaluation_base_raw -> evaluation_base_calibrated,langgraph,agent,0.036361646408927695,0.013403880070546825,0.0476190476190476,0.0,0.0,0.0
+evaluation_base_raw -> evaluation_base_calibrated,nanoclaw,agent,0.041992216269331806,0.020811287477954132,0.0476190476190476,0.0,0.0,0.0
+evaluation_base_raw -> evaluation_base_calibrated,hermes_ai,agent,0.0398645350712844,0.003527336860670194,0.0476190476190476,0.0,0.0,0.0
+evaluation_base_raw -> evaluation_base_calibrated,openclaw,agent,0.036550441002495826,0.010758377425043986,0.0952380952380952,0.0,0.0,0.0
+evaluation_base_raw -> evaluation_base_calibrated,nanobot,agent,0.08450617963583179,0.050264550264550234,0.0952380952380952,0.0,0.0,0.0
+evaluation_base_raw -> evaluation_base_calibrated,evoagentx,agent,0.03494910533692258,0.014638447971781265,0.0476190476190476,0.0,0.0,0.0
+evaluation_base_raw -> evaluation_base_calibrated,historical_persistence,baseline,0.0,0.0,0.0,0.0,0.0,0.0
+evaluation_base_raw -> evaluation_base_calibrated,threshold_rule,baseline,0.0,0.0,0.0,0.0,0.0,0.0
+evaluation_base_raw -> evaluation_base_calibrated,always_stable,baseline,0.0,0.0,0.0,0.0,0.0,0.0
+evaluation_base_raw -> evaluation_base_calibrated,simple_ml_softmax_logistic,baseline,0.0,0.0,0.0,0.0,0.0,0.0
+evaluation_verifier_raw -> evaluation_verifier_calibrated,langgraph,agent,0.03991659239131973,0.001058201058201036,0.0476190476190476,0.0,0.0,0.0
+evaluation_verifier_raw -> evaluation_verifier_calibrated,nanoclaw,agent,0.04384509306219003,0.023456790123456805,0.0,0.0,0.0,0.0
+evaluation_verifier_raw -> evaluation_verifier_calibrated,evoagentx,agent,0.004241472619319009,-0.017283950617283994,0.0,0.0,0.0,0.0
+evaluation_verifier_raw -> evaluation_verifier_calibrated,hermes_ai,agent,0.08683426837530173,0.02927689594356253,0.09523809523809519,0.0,0.0,0.0
+evaluation_verifier_raw -> evaluation_verifier_calibrated,nanobot,agent,0.09588949064389618,0.05273368606701939,0.09523809523809519,0.0,0.0,0.0
+evaluation_verifier_raw -> evaluation_verifier_calibrated,openclaw,agent,0.03674347281662818,0.007054673721340332,0.0952380952380952,0.0,0.0,0.0
+evaluation_verifier_raw -> evaluation_verifier_calibrated,historical_persistence,baseline,0.0,0.0,0.0,0.0,0.0,0.0
+evaluation_verifier_raw -> evaluation_verifier_calibrated,threshold_rule,baseline,0.0,0.0,0.0,0.0,0.0,0.0
+evaluation_verifier_raw -> evaluation_verifier_calibrated,always_stable,baseline,0.0,0.0,0.0,0.0,0.0,0.0
+evaluation_verifier_raw -> evaluation_verifier_calibrated,simple_ml_softmax_logistic,baseline,0.0,0.0,0.0,0.0,0.0,0.0

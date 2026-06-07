@@ -1,0 +1,251 @@
+{
+  "alignment_case_agreement": [
+    {
+      "audit_item": "case_count",
+      "interpretation": "Same-case overlap count.",
+      "value": 120.0,
+      "variant": "raw"
+    },
+    {
+      "audit_item": "label_agreement_rate",
+      "interpretation": "Share of original 120 labels reproduced by 507 same-case rerun.",
+      "value": 0.85,
+      "variant": "raw"
+    },
+    {
+      "audit_item": "p_depeg_correlation",
+      "interpretation": "Correlation of depeg probabilities.",
+      "value": 0.927561917131233,
+      "variant": "raw"
+    },
+    {
+      "audit_item": "p_depeg_mean_abs_diff",
+      "interpretation": "Average absolute probability shift.",
+      "value": 0.023749999999999997,
+      "variant": "raw"
+    },
+    {
+      "audit_item": "p_depeg_median_abs_diff",
+      "interpretation": "Median absolute probability shift.",
+      "value": 0.0,
+      "variant": "raw"
+    },
+    {
+      "audit_item": "maxdev_correlation",
+      "interpretation": "Correlation of maximum-deviation estimates.",
+      "value": 0.997134075347148,
+      "variant": "raw"
+    },
+    {
+      "audit_item": "maxdev_mean_abs_diff_bps",
+      "interpretation": "Average absolute max-deviation shift.",
+      "value": 5.091666666666667,
+      "variant": "raw"
+    },
+    {
+      "audit_item": "maxdev_median_abs_diff_bps",
+      "interpretation": "Median absolute max-deviation shift.",
+      "value": 0.0,
+      "variant": "raw"
+    },
+    {
+      "audit_item": "direction_agreement_rate",
+      "interpretation": "Direction agreement.",
+      "value": 0.9083333333333333,
+      "variant": "raw"
+    },
+    {
+      "audit_item": "confidence_correlation",
+      "interpretation": "Confidence correlation.",
+      "value": 0.5575889596191012,
+      "variant": "raw"
+    },
+    {
+      "audit_item": "case_count",
+      "interpretation": "Same-case overlap count.",
+      "value": 120.0,
+      "variant": "calibrated"
+    },
+    {
+      "audit_item": "label_agreement_rate",
+      "interpretation": "Share of original 120 labels reproduced by 507 same-case rerun.",
+      "value": 0.8583333333333333,
+      "variant": "calibrated"
+    },
+    {
+      "audit_item": "p_depeg_correlation",
+      "interpretation": "Correlation of depeg probabilities.",
+      "value": 0.927561917131233,
+      "variant": "calibrated"
+    },
+    {
+      "audit_item": "p_depeg_mean_abs_diff",
+      "interpretation": "Average absolute probability shift.",
+      "value": 0.023749999999999997,
+      "variant": "calibrated"
+    },
+    {
+      "audit_item": "p_depeg_median_abs_diff",
+      "interpretation": "Median absolute probability shift.",
+      "value": 0.0,
+      "variant": "calibrated"
+    },
+    {
+      "audit_item": "maxdev_correlation",
+      "interpretation": "Correlation of maximum-deviation estimates.",
+      "value": 0.997134075347148,
+      "variant": "calibrated"
+    },
+    {
+      "audit_item": "maxdev_mean_abs_diff_bps",
+      "interpretation": "Average absolute max-deviation shift.",
+      "value": 5.091666666666667,
+      "variant": "calibrated"
+    },
+    {
+      "audit_item": "maxdev_median_abs_diff_bps",
+      "interpretation": "Median absolute max-deviation shift.",
+      "value": 0.0,
+      "variant": "calibrated"
+    },
+    {
+      "audit_item": "direction_agreement_rate",
+      "interpretation": "Direction agreement.",
+      "value": 0.9083333333333333,
+      "variant": "calibrated"
+    },
+    {
+      "audit_item": "confidence_correlation",
+      "interpretation": "Confidence correlation.",
+      "value": 0.5575889596191012,
+      "variant": "calibrated"
+    }
+  ],
+  "calibrated_metrics": {
+    "avg_completion_tokens": 387.9980276134122,
+    "avg_latency_seconds": 21.0566847044889,
+    "avg_prompt_tokens": 13491.877712031559,
+    "avg_total_tokens": 13879.875739644971,
+    "binary_auroc": 0.36177248677248675,
+    "binary_average_precision": 0.00655452600573058,
+    "binary_brier_score": 0.020493096646942793,
+    "binary_ece_10bin": 0.10138067061143984,
+    "binary_fn": 3,
+    "binary_fp": 2,
+    "binary_precision": 0.0,
+    "binary_recall": 0.0,
+    "binary_tn": 502,
+    "binary_tp": 0,
+    "cases": 507,
+    "cost_per_case_usd": 0.005012275187376726,
+    "cost_per_correct_prediction_usd": 0.01063273439330544,
+    "cost_per_detected_depeg_usd": NaN,
+    "deviation_error_median_bps": 10.000000000002,
+    "deviation_error_p10_bps": -16.199999999999992,
+    "deviation_error_p90_bps": 44.40000000000043,
+    "deviation_mae_bps": 31.67238658777192,
+    "deviation_rmse_bps": 100.15342087034065,
+    "execution_mode": "stableeval_adapter",
+    "failure_rate": 0.0,
+    "false_alarm_rate": 0.003968253968253968,
+    "invalid_output_rate": 0.0,
+    "missed_depeg_rate": 1.0,
+    "model_backend": "openrouter/qwen/qwen-2.5-72b-instruct",
+    "system": "nanoclaw_adapter_qwen_507_calibrated",
+    "system_type": "agent",
+    "taskA_accuracy": 0.4714003944773176,
+    "taskA_balanced_accuracy": 0.43522297808012095,
+    "taskA_f1_stable": 0.616793893129771,
+    "taskA_f1_stress": 0.08,
+    "taskA_f1_watch": 0.21556886227544908,
+    "taskA_macro_f1": 0.30412091846840666,
+    "taskA_precision_stable": 0.9439252336448598,
+    "taskA_precision_stress": 0.25,
+    "taskA_precision_watch": 0.1245674740484429,
+    "taskA_recall_stable": 0.4580498866213152,
+    "taskA_recall_stress": 0.047619047619047616,
+    "taskA_recall_watch": 0.8,
+    "total_estimated_cost_usd": 2.54122352,
+    "valid_json_rate": 1.0
+  },
+  "completion": {
+    "continuation_records": 502,
+    "corrupt_lines": {
+      "continuation": [],
+      "dry_run": []
+    },
+    "dry_run_records": 5,
+    "duplicate_case_ids": [],
+    "failed_cases": [],
+    "final_total_records": 507,
+    "missing_case_ids": [],
+    "unique_case_ids": 507,
+    "valid_json_rate": 1.0
+  },
+  "created_at_utc": "2026-06-05T21:41:51.988551+00:00",
+  "post_run_freeze_integrity": {
+    "created_at_utc": "2026-06-05T21:41:51.987950+00:00",
+    "freeze_changed_files": [],
+    "freeze_checked_files": 325,
+    "freeze_manifest": "results/freeze_120_audit/FREEZE_120_MANIFEST.csv",
+    "freeze_missing_files": [],
+    "freeze_verdict": "PASS"
+  },
+  "protocol": {
+    "agent": "NanoClaw adapter",
+    "backend": "openrouter/qwen/qwen-2.5-72b-instruct",
+    "calibration_rule": "risk_sensitive_v1_posthoc_frozen",
+    "execution_mode": "stableeval_adapter",
+    "only_intended_difference_from_hermes_ai": "agent = NanoClaw adapter",
+    "provider": "OpenRouter",
+    "temperature": 0
+  },
+  "raw_metrics": {
+    "avg_completion_tokens": 387.9980276134122,
+    "avg_latency_seconds": 21.0566847044889,
+    "avg_prompt_tokens": 13491.877712031559,
+    "avg_total_tokens": 13879.875739644971,
+    "binary_auroc": 0.36177248677248675,
+    "binary_average_precision": 0.00655452600573058,
+    "binary_brier_score": 0.020493096646942793,
+    "binary_ece_10bin": 0.10138067061143984,
+    "binary_fn": 3,
+    "binary_fp": 2,
+    "binary_precision": 0.0,
+    "binary_recall": 0.0,
+    "binary_tn": 502,
+    "binary_tp": 0,
+    "cases": 507,
+    "cost_per_case_usd": 0.005012275187376726,
+    "cost_per_correct_prediction_usd": 0.012217420769230769,
+    "cost_per_detected_depeg_usd": NaN,
+    "deviation_error_median_bps": 10.000000000002,
+    "deviation_error_p10_bps": -16.199999999999992,
+    "deviation_error_p90_bps": 44.40000000000043,
+    "deviation_mae_bps": 31.67238658777192,
+    "deviation_rmse_bps": 100.15342087034065,
+    "execution_mode": "stableeval_adapter",
+    "failure_rate": 0.0,
+    "false_alarm_rate": 0.003968253968253968,
+    "invalid_output_rate": 0.0,
+    "missed_depeg_rate": 1.0,
+    "model_backend": "openrouter/qwen/qwen-2.5-72b-instruct",
+    "system": "nanoclaw_adapter_qwen_507_raw",
+    "system_type": "agent",
+    "taskA_accuracy": 0.41025641025641024,
+    "taskA_balanced_accuracy": 0.3966742252456538,
+    "taskA_f1_stable": 0.5512820512820513,
+    "taskA_f1_stress": 0.0,
+    "taskA_f1_watch": 0.19618528610354224,
+    "taskA_macro_f1": 0.24915577912853118,
+    "taskA_precision_stable": 0.9398907103825137,
+    "taskA_precision_stress": 0.0,
+    "taskA_precision_watch": 0.11180124223602485,
+    "taskA_recall_stable": 0.3900226757369615,
+    "taskA_recall_stress": 0.0,
+    "taskA_recall_watch": 0.8,
+    "total_estimated_cost_usd": 2.54122352,
+    "valid_json_rate": 1.0
+  },
+  "v6_leaderboard": "results/scaling_507/tables/scaling_507_progress_leaderboard_v6_verified_with_nanoclaw_adapter.csv"
+}

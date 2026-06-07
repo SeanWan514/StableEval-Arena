@@ -1,0 +1,2 @@
+variant,cases,total_prompt_tokens,total_completion_tokens,total_tokens,mean_latency_seconds,total_latency_seconds,total_estimated_cost_usd,cost_per_case_usd
+raw_and_calibrated_same_run,507,6840889,222552,7063441,27.719710191454382,14053.893067067373,2.5517408400000003,0.005033019408284024

@@ -1,0 +1,10 @@
+component,same_different_unclear,evidence_path,concern_level,notes
+Case IDs,same,results/validation_120/validation_case_list.csv; results/scaling_507/case_ids/natural_distribution_507_case_list.csv,No concern,All 120 validation case IDs are contained in the 507 pool; 507 has 387 additional natural-distribution cases.
+Case labels / hidden outcomes for overlapping 120 cases,same,case list column comparison,No concern,No mismatches in common label/outcome columns.
+Prompt packets for overlapping 120 cases,same,results/validation_120/prompt_packets_120.jsonl; results/scaling_507/prompt_packets/natural_distribution_507_prompt_packets.jsonl,No concern,120/120 overlapping prompt packet hashes match; missing=0 malformed120=0 malformed507=0.
+Backend model,same,results/validation_120/model_backend.json; results/scaling_507/metadata/model_backend.json,No concern,120=qwen/qwen-2.5-72b-instruct; 507=qwen/qwen-2.5-72b-instruct.
+Temperature / decoding,same,results/validation_120/model_backend.json; results/scaling_507/metadata/model_backend.json,No concern,Both backend selection records document qwen/qwen-2.5-72b-instruct at temperature 0 in the frozen selection reason.
+Calibration rule,same,results/validation_120/calibration_rule.md; results/scaling_507/metadata/calibration_rule.md,No concern,Frozen post-hoc risk-sensitive rule text matches exactly.
+Evaluator / metric definitions,same,scripts/06_evaluate_predictions.py,No concern,"Audit reproduces the same local evaluator formulas for class order, binary threshold, Brier, ECE, and deviation errors."
+Output schema,same,prediction JSONL files and protocol snapshot,No concern,"Both contain predicted label, probability, max-deviation, direction, confidence, rationale, backend metadata, and cost/latency/token fields."
+Frozen 120 artifact safety after 507,same,results/scaling_507/metadata/freeze_120_integrity_after_nanobot_completion.json,No concern,"{""changed_files"": [], ""checked_at_utc"": ""2026-06-03T15:23:21.464236+00:00"", ""checked_files"": 325, ""manifest"": ""results/freeze_120_audit/FREEZE_120_MANIFEST.csv"", ""missing_files"": [], ""verdict"": ""PASS""}"

@@ -1,0 +1,5 @@
+system,system_type,cases,avg_prompt_tokens,avg_completion_tokens,avg_total_tokens,avg_latency_seconds,total_estimated_cost_usd,cost_per_case_usd,cost_per_correct_prediction_usd,cost_per_detected_depeg_usd,valid_json_rate,failure_rate,invalid_output_rate
+historical_persistence,baseline,120,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+threshold_rule,baseline,120,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,1.0,0.0,0.0
+always_stable,baseline,120,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,1.0,0.0,0.0
+simple_ml_softmax_logistic,baseline,120,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,1.0,0.0,0.0

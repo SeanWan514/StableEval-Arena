@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-06-03T19:03:49.233192+00:00",
+  "freeze_manifest": "results/freeze_120_audit/FREEZE_120_MANIFEST.csv",
+  "freeze_checked_files": 325,
+  "freeze_missing_files": [],
+  "freeze_changed_files": [],
+  "freeze_verdict": "PASS",
+  "nanobot_files": {
+    "complete_raw": {
+      "path": "results/scaling_507/raw_outputs/nanobot_qwen_507_complete/nanobot_predictions_507_complete.jsonl",
+      "sha256": "da18af013f7333a8b051ad85930c23a595a7fb086e249b471b34fb7ee26f9f11"
+    },
+    "alignment_report": {
+      "path": "results/scaling_507/reports/NANOBOT_120_VS_507_ALIGNMENT_AUDIT.md",
+      "sha256": "afe7de3e6b329fb4e15f6a062f8d21e14f4ae32078b621cab93ecd9ec69173c0"
+    },
+    "completion_report": {
+      "path": "results/scaling_507/reports/NANOBOT_QWEN_507_COMPLETION_REPORT.md",
+      "sha256": "6bcd1dddd588268d0884414294b9594063040de0b70aecddba3742ecd86a0a8d"
+    }
+  }
+}

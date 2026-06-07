@@ -1,0 +1,46 @@
+{
+  "alignment_verdict": "PASS",
+  "api_calls_made": 0,
+  "case_validity": {
+    "backend_issues": 0,
+    "corrupt_lines": 0,
+    "duplicates": 0,
+    "invalid_cases": 507,
+    "metric_inclusion_issues": 0,
+    "missing_cases": 0,
+    "schema_issues": 0,
+    "total_cases_checked": 507,
+    "valid_cases": 0
+  },
+  "created_at_utc": "2026-06-04T10:59:45.035119+00:00",
+  "freeze_integrity_pass": true,
+  "merge_integrity": {
+    "cal_eval_matches_final": true,
+    "calibrated_corrupt_lines": 0,
+    "calibrated_matches_raw": true,
+    "continuation_records": 502,
+    "dry_continuation_overlap": 0,
+    "dry_continuation_overlap_ids": "",
+    "dry_run_records": 5,
+    "dry_run_reused_in_final": 5,
+    "evaluation_rows_calibrated": 507,
+    "evaluation_rows_raw": 507,
+    "final_calibrated_records": 507,
+    "final_calibrated_unique_case_ids": 507,
+    "final_matches_case_list": true,
+    "final_raw_records": 507,
+    "final_raw_unique_case_ids": 507,
+    "prompt_packet_count": 507,
+    "prompt_packet_unique_case_ids": 507,
+    "prompt_packets_match_case_list": true,
+    "raw_compat_matches_complete": true,
+    "raw_corrupt_lines": 0,
+    "raw_eval_matches_final": true
+  },
+  "metric_recomputation_all_match": true,
+  "stress_case_summary": {
+    "all_three_miss_stress": 19,
+    "at_least_one_agent_correct_stress": 2,
+    "stress_cases": 21
+  }
+}

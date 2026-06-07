@@ -1,0 +1,7 @@
+original_prediction,variant,stable,watch,stress
+stable,raw,9,10,0
+watch,raw,6,93,0
+stress,raw,0,0,2
+stable,calibrated,9,11,0
+watch,calibrated,9,86,0
+stress,calibrated,0,2,3

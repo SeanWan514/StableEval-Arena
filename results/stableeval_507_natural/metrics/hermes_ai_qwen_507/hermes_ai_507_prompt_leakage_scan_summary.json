@@ -1,0 +1,16 @@
+{
+  "prompt_packet_count": 507,
+  "unique_prompt_case_ids": 507,
+  "case_list_count": 507,
+  "prompt_ids_match_case_list": true,
+  "duplicate_prompt_case_ids": [],
+  "missing_prompt_case_ids": [],
+  "extra_prompt_case_ids": [],
+  "suspicious_leakage_field_count": 0,
+  "allowed_future_context": [
+    "forecast_horizon.end",
+    "forecast_horizon.hours",
+    "forecast_horizon.start"
+  ],
+  "verdict": "PASS"
+}

@@ -1,0 +1,7 @@
+platform,package_version,import_verified,llm_smoke_verified,native_runtime_verified,execution_mode,caveat
+nanobot,nanobot-ai==0.2.0,True,True,True,nanobot_sdk_openrouter_agent_loop,Real local Nanobot SDK framework path executed with OpenRouter LLM backend.
+langgraph,langgraph==1.2.0,True,True,True,langgraph_two_node_stategraph_openrouter_llm,Real local LangGraph StateGraph framework path executed with OpenRouter LLM backend.
+hermes_ai,hermes-ai==0.3.20,True,True,True,hermes_agent_llamaindex_achat_openrouter_llm,Real local Hermes Agent framework path executed with OpenRouter LLM backend.
+evoagentx,evoagentx==0.1.0,True,True,True,evoagentx_openrouterllm_adapter,Real local EvoAgentX OpenRouterLLM framework path executed with OpenRouter LLM backend.
+openclaw,openclaw==2026.3.20,True,True,False,stableeval_adapter,"CMDOP local runtime was not available; StableEval used an LLM-backed adapter, not native CMDOP execution. Native check: AgentNotRunningError: No cmdop agent found. Start with: cmdop agent start"
+nanoclaw,nanoclaw==2026.3.20,True,True,False,stableeval_adapter,"CMDOP local runtime was not available; StableEval used an LLM-backed adapter, not native CMDOP execution. Native check: AgentNotRunningError: No cmdop agent found. Start with: cmdop agent start"
