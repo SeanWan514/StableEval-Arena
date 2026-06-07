@@ -15,6 +15,10 @@
 
 **StableEval Arena** is a historical-replay benchmark for evaluating whether agentic AI systems can act as cost-aware, trustworthy stablecoin risk agents. Each case gives an agent a frozen 30-day lookback packet and asks it to predict the next 7-day stable/watch/stress state, depeg probability, and dollar-peg deviation.
 
+GitHub repository: https://github.com/SeanWan514/StableEval-Arena
+
+Hugging Face dataset: https://huggingface.co/datasets/SeanWan05/stableeval-arena
+
 The release is organized around two paper-facing benchmark blocks:
 
 | Block | Role | Current release state |
