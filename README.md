@@ -166,7 +166,7 @@ Some historical manifests and one-off finalizer scripts retain pre-cleanup path 
 
 ## License And Data Redistribution
 
-Repository code, scripts, prompts, and documentation are released under Apache License 2.0 unless otherwise stated; see `LICENSE`.
+Repository code, scripts, prompts, and documentation are released under Apache License 2.0; see `LICENSE`.
 
 Benchmark artifacts under `data/benchmark/` and `results/` may include processed or derived market-data artifacts from upstream providers such as CryptoCompare/CCData and DeFiLlama, plus LLM-generated outputs. These artifacts are included for academic reproducibility, but redistribution and reuse may remain subject to original provider terms. Raw provider/vendor snapshots are not redistributed.
 
