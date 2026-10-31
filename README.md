@@ -37,6 +37,10 @@
 >
 > Submission **#11** · [Paper](https://kdd-eval-workshop.github.io/agenticai-evaluation-kdd2026/assets/papers/11_StableEval_Arena_A_Cost_Awa.pdf) · [Poster](https://kdd-eval-workshop.github.io/agenticai-evaluation-kdd2026/assets/papers/posters/11_StableEval_Arena_A_Cost_Awa_Poster.pdf)
 
+GitHub repository: https://github.com/SeanWan514/StableEval-Arena
+
+HuggingFace repository: https://huggingface.co/datasets/SeanWan05/stableeval-arena 
+
 ---
 
 <a id="overview"></a>
