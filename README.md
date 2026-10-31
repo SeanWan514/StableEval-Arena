@@ -33,7 +33,9 @@
   <a href="#citation">📚 Citation</a>
 </p>
 
-<p align="center"><sub>KDD 2026 workshop submission #11</sub></p>
+> **Accepted at the [KDD 2026 Workshop on Evaluation and Trustworthiness of Agentic AI](https://kdd-eval-workshop.github.io/agenticai-evaluation-kdd2026/). Selected for Oral Presentation.**
+>
+> Submission **#11** · [Paper](https://kdd-eval-workshop.github.io/agenticai-evaluation-kdd2026/assets/papers/11_StableEval_Arena_A_Cost_Awa.pdf) · [Poster](https://kdd-eval-workshop.github.io/agenticai-evaluation-kdd2026/assets/papers/posters/11_StableEval_Arena_A_Cost_Awa_Poster.pdf)
 
 ---
 
