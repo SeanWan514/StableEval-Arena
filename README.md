@@ -13,6 +13,10 @@
   <img alt="Backend" src="https://img.shields.io/badge/Backend-Qwen%2072B%20via%20OpenRouter-B35C00">
 </p>
 
+> **Accepted at the [KDD 2026 Workshop on Evaluation and Trustworthiness of Agentic AI](https://kdd-eval-workshop.github.io/agenticai-evaluation-kdd2026/) and selected for oral presentation.**
+>
+> Submission **#11** · [Paper](https://kdd-eval-workshop.github.io/agenticai-evaluation-kdd2026/assets/papers/11_StableEval_Arena_A_Cost_Awa.pdf) · [Poster](https://kdd-eval-workshop.github.io/agenticai-evaluation-kdd2026/assets/papers/posters/11_StableEval_Arena_A_Cost_Awa_Poster.pdf)
+
 **StableEval Arena** is a historical-replay benchmark for evaluating whether agentic AI systems can act as cost-aware, trustworthy stablecoin risk agents. Each case gives an agent a frozen 30-day lookback packet and asks it to predict the next 7-day stable/watch/stress state, depeg probability, and dollar-peg deviation.
 
 GitHub repository: https://github.com/SeanWan514/StableEval-Arena
